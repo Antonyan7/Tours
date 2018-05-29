@@ -1,6 +1,6 @@
 jQuery('#s').on('input', function() {
 	jQuery.ajax({
-		url: 'http://tour/grandtour/demo2/wp-admin/admin-ajax.php',
+		url: 'http://themes.themegoods.com/grandtour/demo2/wp-admin/admin-ajax.php',
 		type:'POST',
 		data:'action=grandtour_ajax_search_result&'+jQuery('#menu_search_form').serialize(),
 		success:function(results) {
