@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+    @php(die("There Are No Registration Methods, Error 110000001010101010101010101"))
+{{--<div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -73,5 +74,5 @@
             </div>
         </div>
     </div>
-</div>
+</div>--}}
 @endsection
