@@ -18,3 +18,5 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/tour','HomeController@tour');
+Route::get('/myTourAdministrationNoteL8Zpx7','Admincontroller@');

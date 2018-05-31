@@ -25,4 +25,10 @@ class HomeController extends Controller
     {
         return view('tour.tour.grandtour.demo2.index');
     }
+
+    public function tour()
+    {
+        return view('tour.tour.grandtour.demo2.tour');
+
+    }
 }
