@@ -1220,18 +1220,6 @@
         </div>
     </div>
 </div>
-<div id="option_btn">
-    <a href="javascript:;" class="demotip" title="Choose Theme Styling"><span class="ti-settings"></span></a>
-
-    <a href="https://themegoods.theme-demo.net/grandtourtourtravelwordpress" class="demotip" title="Try Before You Buy" target="_blank"><span class="ti-pencil-alt"></span></a>
-
-    <a href="http://themes.themegoods.com/grandtour/landing/showcase/" class="demotip" title="Showcase" target="_blank"><span class="ti-heart"></span></a>
-
-    <a href="http://themes.themegoods.com/grandtour/doc" class="demotip" title="Theme Documentation" target="_blank"><span class="ti-book"></span></a>
-
-    <a href="https://themeforest.net/item/grand-tour-tour-travel-wordpress/19264426?ref=ThemeGoods&amp;license=regular&amp;open_purchase_for_item_id=19264426&amp;purchasable=source&amp;ref=ThemeGoods" title="Purchase Theme" class="demotip" target="_blank"><span class="ti-shopping-cart"></span></a>
-</div>
-
 
 <script type="text/javascript">(function() {function addEventListener(element,event,handler) {
         if(element.addEventListener) {
