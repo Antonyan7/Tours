@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-
+        $this->middleware('auth');
     }
 
     /**
@@ -23,12 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('tour.tour.grandtour.demo2.index');
-    }
-
-    public function tour()
-    {
-        return view('tour.tour.grandtour.demo2.tour');
-
+        return view('home');
     }
 }

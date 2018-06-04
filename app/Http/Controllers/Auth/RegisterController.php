@@ -28,7 +28,12 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/404';
+    public function showRegistrationForm()
+    {
+        return redirect('login');
+    }
+
+    protected $redirectTo = 'sadasd';
 
     /**
      * Create a new controller instance.

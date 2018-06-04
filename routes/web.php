@@ -14,10 +14,10 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/tour','HomeController@tour');
+Route::get('/admin','AdminController@index');
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
-Route::get('/tour','HomeController@tour');
-Route::get('/logout','AdminController@logout');
-Route::get('/admin','AdminController@index');
+Route::get('/home', 'HomeController@index')->name('home');

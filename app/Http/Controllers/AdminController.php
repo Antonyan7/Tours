@@ -7,14 +7,16 @@ use Illuminate\Support\Facades\Auth;
 
 class AdminController extends Controller
 {
-    public function __construct()
+   /* public function __construct()
     {
         $this->middleware('guest')->except('logout');
     }
-
-    public function index(){
-        dd('admin');
+*/
+    public function index()
+    {
+        return view('admin', ['name' => 'James']);
     }
+
     public function logout(){
         Auth::logout();
         return redirect()->action('HomeController@index');

@@ -101,112 +101,112 @@
     </style>
 
     <link rel='stylesheet' id='booked-icons-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/icons.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/icons.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-tooltipster-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-tooltipster-theme-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-animations-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/animations.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/animations.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-styles-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/styles.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/styles.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-responsive-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/responsive.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/responsive.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='contact-form-7-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/contact-form-7/includes/css/styles.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/contact-form-7/includes/css/styles.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='fontawesome-stars-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/grandtour-custom-post/css/fontawesome-stars-o.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/grandtour-custom-post/css/fontawesome-stars-o.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='dashicons-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/css/dashicons.min.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/css/dashicons.min.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='post-views-counter-frontend-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/post-views-counter/css/frontend.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/post-views-counter/css/frontend.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='rs-plugin-settings-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/css/settings.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/css/settings.css'
           type='text/css' media='all'/>
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {
         }
     </style>
     <link rel='stylesheet' id='woocommerce-layout-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='woocommerce-smallscreen-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css'
           type='text/css' media='only screen and (max-width: 768px)'/>
     <link rel='stylesheet' id='woocommerce-general-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-reset-css-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/reset.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/reset.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-wordpress-css-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/wordpress.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/wordpress.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-animation-css-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/animation.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/animation.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='ilightbox-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/ilightbox/ilightbox.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/ilightbox/ilightbox.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-jqueryui-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/jqueryui/custom.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/jqueryui/custom.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='mediaelement-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/mediaelement/mediaelementplayer.min.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/mediaelement/mediaelementplayer.min.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='flexslider-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/flexslider/flexslider.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/flexslider/flexslider.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='tooltipster-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/tooltipster.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/tooltipster.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='odometer-theme-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/odometer-theme-minimal.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/odometer-theme-minimal.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-screen-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/screen.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/screen.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-leftalignmenu-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/menus/leftalignmenu.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/menus/leftalignmenu.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='fontawesome-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/font-awesome.min.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/font-awesome.min.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='themify-icons-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/themify-icons.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/themify-icons.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-script-custom-css-css'
-          href='resources/views/tour/tour/grandtour/demo2/wp-admin/admin-ajaxf192.css?action=grandtour_custom_css'
+          href='tour/grandtour/demo2/wp-admin/admin-ajaxf192.css?action=grandtour_custom_css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='kirki-styles-global-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/modules/kirki/assets/css/kirki-styles.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/modules/kirki/assets/css/kirki-styles.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-script-responsive-css-css'
-          href='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/grid.css'
+          href='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/grid.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='kirki_google_fonts-css'
           href='https://fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700%7CNothing+You+Could+Do%3Aregular&amp;subset'
           type='text/css' media='all'/>
     <script type='text/javascript'
-            src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/jquery.js'></script>
+            src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/jquery.js'></script>
     <script type='text/javascript'
-            src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+            src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/jquery-migrate.min.js'></script>
     <script type='text/javascript'
-            src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/grandtour-custom-post/js/jquery.barrating.js'></script>
+            src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/grandtour-custom-post/js/jquery.barrating.js'></script>
     <script type='text/javascript'
-            src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+            src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
     <script type='text/javascript'
-            src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+            src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
     <style type="text/css">.recentcomments a {
             display: inline !important;
             padding: 0 !important;
@@ -214,9 +214,9 @@
         }</style>
 
     <script type="text/javascript"
-            src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
+            src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript"
-            src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
+            src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript">function setREVStartSize(e) {
             try {
                 var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
@@ -396,7 +396,7 @@
                     <div id="logo_normal" class="logo_container">
                         <div class="logo_align">
                             <a id="custom_logo" class="logo_wrapper hidden" href="index.html">
-                                <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x.png"
+                                <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x.png"
                                      alt="" width="92" height="22"/>
                             </a>
                         </div>
@@ -405,7 +405,7 @@
                     <div id="logo_transparent" class="logo_container">
                         <div class="logo_align">
                             <a id="custom_logo_transparent" class="logo_wrapper default" href="index.html">
-                                <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png"
+                                <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png"
                                      alt="" width="92" height="22"/>
                             </a>
                         </div>
@@ -537,15 +537,15 @@
 
 
     <script type="text/javascript"
-            src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
+            src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript"
-            src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
+            src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
     <div class="ppb_wrapper  ">
         <div class="one fullwidth ">
             <link href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do:400%7CMontserrat:400"
                   rel="stylesheet" property="stylesheet" type="text/css" media="all">
             <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery"
-                 style="margin:0px auto;background:rgba(0,0,0,0);padding:0px;margin-top:0px;margin-bottom:0px;background-image:url(resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;">
+                 style="margin:0px auto;background:rgba(0,0,0,0);padding:0px;margin-top:0px;margin-bottom:0px;background-image:url(themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;">
                 <!-- START REVOLUTION SLIDER 5.4.5.1 auto mode -->
                 <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" data-version="5.4.5.1">
                     <ul>    <!-- SLIDE  -->
@@ -557,7 +557,7 @@
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                             data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243.jpg"
+                            <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243.jpg"
                                  alt="" title="pexels-photo-210243" width="1440" height="960"
                                  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                  class="rev-slidebg" data-no-retina>
@@ -616,7 +616,7 @@
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                             data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-206359.jpg"
+                            <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-206359.jpg"
                                  alt="" title="pexels-photo-206359" width="1440" height="960"
                                  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                  class="rev-slidebg" data-no-retina>
@@ -675,7 +675,7 @@
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                             data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-525544.jpg"
+                            <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-525544.jpg"
                                  alt="" title="pexels-photo-525544" width="1440" height="960"
                                  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                  class="rev-slidebg" data-no-retina>
@@ -765,7 +765,7 @@
                         } else {
                             revapi1 = tpj("#rev_slider_1_1").show().revolution({
                                 sliderType: "standard",
-                                jsFileLocation: "resources/views/tour/themes.themegoods.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/",
+                                jsFileLocation: "themes.themegoods.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/",
                                 sliderLayout: "auto",
                                 dottedOverlay: "none",
                                 delay: 4000,
@@ -942,7 +942,7 @@
                      data-columns="4">
                     <div class="element grid center classic4_cols double_size animated1">
                         <div class="one_fourth gallery4 double_size grid static filterable portfolio_type themeborder"
-                             style="background-image:url(resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-481795-960x636.jpg);">
+                             style="background-image:url(themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-481795-960x636.jpg);">
                             <div class="ppb_background_overlay light"></div>
                             <a class="tour_image" href="destination/north-america/index.html"></a>
                             <div class="portfolio_info_wrapper">
@@ -952,7 +952,7 @@
                     </div>
                     <div class="element grid center classic4_cols animated2">
                         <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
-                             style="background-image:url(resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-525906-700x466.jpg);">
+                             style="background-image:url(themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-525906-700x466.jpg);">
                             <div class="ppb_background_overlay light"></div>
                             <a class="tour_image" href="destination/south-america/index.html"></a>
                             <div class="portfolio_info_wrapper">
@@ -962,7 +962,7 @@
                     </div>
                     <div class="element grid center classic4_cols animated3">
                         <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
-                             style="background-image:url(resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-479344-700x466.jpg);">
+                             style="background-image:url(themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-479344-700x466.jpg);">
                             <div class="ppb_background_overlay light"></div>
                             <a class="tour_image" href="destination/asia/index.html"></a>
                             <div class="portfolio_info_wrapper">
@@ -972,7 +972,7 @@
                     </div>
                     <div class="element grid center classic4_cols animated4">
                         <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
-                             style="background-image:url(resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/H2O-Tours-australia-700x466.jpg);">
+                             style="background-image:url(themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/H2O-Tours-australia-700x466.jpg);">
                             <div class="ppb_background_overlay light"></div>
                             <a class="tour_image" href="destination/australia/index.html"></a>
                             <div class="portfolio_info_wrapper">
@@ -982,7 +982,7 @@
                     </div>
                     <div class="element grid center classic4_cols animated5">
                         <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
-                             style="background-image:url(resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/Beautiful-Africa-700x466.jpg);">
+                             style="background-image:url(themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/Beautiful-Africa-700x466.jpg);">
                             <div class="ppb_background_overlay light"></div>
                             <a class="tour_image" href="destination/africa/index.html"></a>
                             <div class="portfolio_info_wrapper">
@@ -992,7 +992,7 @@
                     </div>
                     <div class="element grid center classic4_cols double_size animated6">
                         <div class="one_fourth gallery4 double_size grid static filterable portfolio_type themeborder"
-                             style="background-image:url(resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/erik-lundqvist-220582-960x636.jpg);">
+                             style="background-image:url(themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/erik-lundqvist-220582-960x636.jpg);">
                             <div class="ppb_background_overlay light"></div>
                             <a class="tour_image" href="destination/europe/index.html"></a>
                             <div class="portfolio_info_wrapper">
@@ -1068,7 +1068,7 @@
                     <div class="element grid classic4_cols animated1">
                         <div class="one_fourth gallery4 classic static filterable portfolio_type themeborder"><a
                                     class="tour_image" href="tour/french-autumn/index.html">
-                                <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg"
+                                <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg"
                                      alt="French Autumn"/>
                                 <div class="tour_price ">$5,000</div>
                             </a>
@@ -1101,7 +1101,7 @@
         </div>
     </div>
     <div class="parallax "
-         style="background-image: url(resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-259522.jpg);height:50vh; "></div>
+         style="background-image: url(themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-259522.jpg);height:50vh; "></div>
     <div class="one withsmallpadding ppb_header "
          style="padding-bottom: 0px !important;text-align:left;padding:60px 0 60px 0;">
         <div class="standard_wrapper">
@@ -1165,7 +1165,7 @@
             <div class="page_content_wrapper">
                 <div class="inner">
                     <div style="margin:auto;width:100%"><p><img class="aligncenter wp-image-3080 size-full"
-                                                                src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/awards.png"
+                                                                src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/awards.png"
                                                                 alt="" width="783" height="200"/></p>
                         <h3>Speak to our expert at 1-800-453-6744</h3>
                         <p><a class="button" href="tours/index.html" style="margin-top:10px;">Browse All Tours</a></p>
@@ -1176,7 +1176,7 @@
     </div>
     <div class="one ppb_image_fullwidth" style="padding:0px 0 0px 0;">
         <div class="one withbg"
-             style="background-image:url(resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/mountain_bg.jpg);background-size:cover;background-position:center top;height:400px;position:relative;"></div>
+             style="background-image:url(themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/mountain_bg.jpg);background-size:cover;background-position:center top;height:400px;position:relative;"></div>
     </div>
 </div>
 
@@ -1185,7 +1185,7 @@
     <ul class="sidebar_widget three">
         <li id="text-2" class="widget widget_text">
             <div class="textwidget"><p><img
-                            src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png"
+                            src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png"
                             alt="" width="92" height="22"/></p>
                 <p>London is a megalopolis of people, ideas and frenetic energy. The capital and largest city of the
                     United Kingdom</p>
@@ -1345,7 +1345,7 @@
             </div>
             <ul class="demo_list">
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling1.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling1.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1359,7 +1359,7 @@
 
                 </li>
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/demo2.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/demo2.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1453,7 +1453,7 @@
             <h6 class="demo_title">Predefined Stylings</h6>
             <ul class="demo_list">
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling1.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling1.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1466,7 +1466,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling2.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling2.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1479,7 +1479,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling3.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling3.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1492,7 +1492,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling4.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling4.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1505,7 +1505,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling5.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling5.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1518,7 +1518,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling6.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling6.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1531,7 +1531,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling7.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling7.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1544,7 +1544,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling8.jpg"
+                    <img src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling8.jpg"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1610,9 +1610,9 @@
     }
 </script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/ui/core.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/ui/core.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/ui/datepicker.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/ui/datepicker.min.js'></script>
 <script type='text/javascript'>
     jQuery(document).ready(function (jQuery) {
         jQuery.datepicker.setDefaults({
@@ -1632,11 +1632,11 @@
     });
 </script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/spin.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/spin.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/spin.jquery.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/spin.jquery.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var booked_js_vars = {
@@ -1656,7 +1656,7 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/functions.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/functions.js'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wpcf7 = {
@@ -1668,25 +1668,25 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     // var wc_add_to_cart_params = {"ajax_url":"\/grandtour\/demo2\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/grandtour\/demo2\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/themes.themegoods.com\/grandtour\/demo2\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     // var woocommerce_params = {"ajax_url":"\/grandtour\/demo2\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/grandtour\/demo2\/?wc-ajax=%%endpoint%%"};
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     // var wc_cart_fragments_params = {"ajax_url":"\/grandtour\/demo2\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/grandtour\/demo2\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments_e9762baa34be79da9cad975a4f2efa12"};
@@ -1694,58 +1694,58 @@
 </script>
 
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.requestAnimationFrame.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.requestAnimationFrame.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/ilightbox.packed.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/ilightbox.packed.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.easing.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.easing.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/waypoints.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/waypoints.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.isotope.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.isotope.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.masory.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.masory.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.tooltipster.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.tooltipster.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jarallax.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jarallax.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.sticky-kit.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.sticky-kit.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.stellar.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.stellar.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.cookie.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.cookie.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom_plugins.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom_plugins.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/wp-embed.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/wp-embed.min.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/tour/grandtour/demo2/wp-admin/admin-ajaxd58b.js?action=grandtour_ajax_search&amp;id=s&amp;form=menu_search_form&amp;result=menu_search_autocomplete'></script>
+        src='tour/grandtour/demo2/wp-admin/admin-ajaxd58b.js?action=grandtour_ajax_search&amp;id=s&amp;form=menu_search_form&amp;result=menu_search_autocomplete'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom_onepage.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom_onepage.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.cookie.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.cookie.js'></script>
 <script type='text/javascript'
-        src='resources/views/tour/tour/grandtour/demo2/wp-admin/admin-ajax76a3.js?action=grandtour_script_demo'></script>
+        src='tour/grandtour/demo2/wp-admin/admin-ajax76a3.js?action=grandtour_script_demo'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var mc4wp_forms_config = [];
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js'></script>
 <!--[if lte IE 9]>
 <script type='text/javascript'
-        src='resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script>
+        src='themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script>
 <![endif]-->
 <script type="text/javascript"
-        src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
+        src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript"
-        src="resources/views/tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
+        src="themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
 
 </body>
 </html>
