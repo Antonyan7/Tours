@@ -23,12 +23,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('tour.tour.grandtour.demo2.index');
+        return view('home');
     }
 
     public function tour()
     {
-        return view('tour.tour.grandtour.demo2.tour');
-
+        return view('tour');
     }
 }
