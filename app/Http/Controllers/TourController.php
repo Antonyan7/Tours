@@ -23,4 +23,9 @@ class TourController extends Controller
         return view('tour');
     }
 
+    public function create()
+    {
+        dd(11);
+    }
+
 }
