@@ -18,5 +18,5 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/tourr','TourController@index');
+Route::get('/tour/create','TourController@create');
 Route::get('/myTourAdministrationNoteL8Zpx7','Admincontroller@');
-Route::get('/tour-page/create','TourController@create');

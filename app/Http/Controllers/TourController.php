@@ -25,7 +25,7 @@ class TourController extends Controller
 
     public function create()
     {
-        dd(11);
+        return view('create-tour');
     }
 
 }
