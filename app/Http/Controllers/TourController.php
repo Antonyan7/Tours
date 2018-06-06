@@ -20,7 +20,7 @@ class TourController extends Controller
      */
     public function index()
     {
-        return view('tour.tour.grandtour.demo2.index');
+        return view('tour');
     }
 
 }
