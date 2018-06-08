@@ -29,63 +29,31 @@
 
         <div class="form-row">
             <div class="form-group col-md-4">
-                <label for="inputAge">Age</label>
-                <input type="number" class="form-control" id="inputAge" placeholder="Age">
+                <label for="inputDeparture">departure</label>
+                <input type="text" class="form-control" id="inputDeparture" placeholder="departure">
             </div>
             <div class="form-group col-md-4">
-                <label for="inputAvailability">Availability</label>
-                <input type="number" class="form-control" id="inputAvailability" placeholder="Availability">
+                <label for="inputDepartureTime">Departure Time</label>
+                <input type="text" class="form-control" id="inputDepartureTime" placeholder="departure time">
             </div>
             <div class="form-group col-md-4">
-                <label for="inputPrice">price</label>
-                <input type="number" class="form-control" id="inputPrice" placeholder="Price">
+                <label for="returnTime">Return Time</label>
+                <input type="text" class="form-control" id="returnTime" placeholder="Return Time">
             </div>
         </div>
 
-        <div class="form-group">
-            <div id="newlink">
-                <div class="feed">
-                    <label for="inputAddress">Day Name</label>
-                    <input class="form-control" type="text" name="dayName[]" value="" size="50">
-                    <label for="inputAddress" class="mt-1">Day Description</label>
-                    <input class="form-control mt-1" type="text" name="dayDesc[]" value="" size="50">
-                </div>
-            </div>
-            <p id="addnew">
-                <a href="javascript:add_feed()">Add New </a>
-            </p>
-        </div>
-
-        <div class="form-group">
-            <label for="inputAddress2">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
+                <label for="returnIncluded">included</label>
+                <input type="text" class="form-control" id="returnIncluded" placeholder="included">
             </div>
-            <div class="form-group col-md-4">
-                <label for="inputState">State</label>
-                <select id="inputState" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                </select>
-            </div>
-            <div class="form-group col-md-2">
-                <label for="inputZip">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
+            <div class="form-group col-md-6">
+                <label for="not_included">not_included</label>
+                <input type="text" class="form-control" id="not_included" placeholder="Not included">
             </div>
         </div>
-        <div class="form-group">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                    Check me out
-                </label>
-            </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
+
+        <button type="submit" class="btn btn-primary">Create</button>
     </form>
 </div>
 
