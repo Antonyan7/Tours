@@ -19,7 +19,7 @@ class TourController extends Controller
     private $tourModel;
     private $tourDayModel;
 
-    public function __construct(Day $dayModel, Tour $tourModel,TourDay $tourDayModel)
+    public function __construct(Day $dayModel, Tour $tourModel, TourDay $tourDayModel)
     {
         $this->dayModel = $dayModel;
         $this->tourModel = $tourModel;
@@ -27,14 +27,16 @@ class TourController extends Controller
 
     }
 
-    /**
+    /**+
      * Show the application dashboard.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($id)
     {
-        return view('tour');
+        $randomTours = $this->tourModel->where('id', '!=', $id)->with('days')->orderByRaw("RAND()")->limit(4)->get();
+        $tour = $this->tourModel->where('id', $id)->with('days')->first();
+        return view('tour', ['tour' => $tour, 'randomTours' => $randomTours]);
     }
 
     /**
@@ -61,9 +63,9 @@ class TourController extends Controller
 
         foreach ($days as $day) {
             $dayId = $this->dayModel->create($day)->id;
-            $this->tourDayModel->create(['day_id' => $dayId,'tour_id' => $tourId ]);
+            $this->tourDayModel->create(['day_id' => $dayId, 'tour_id' => $tourId]);
         }
 
-
+        return redirect('/');
     }
 }

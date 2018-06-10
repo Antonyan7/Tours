@@ -1063,41 +1063,42 @@
     <div class="ppb_tour_classic one nopadding " style="margin-bottom:50px;">
         <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
             <div class="standard_wrapper">
-                <div id="15268154921304978810" class="portfolio_filter_wrapper gallery classic four_cols"
-                     data-columns="4">
-                    <div class="element grid classic4_cols animated1">
-                        <div class="one_fourth gallery4 classic static filterable portfolio_type themeborder"><a
-                                    class="tour_image" href="tour/french-autumn/index.html">
-                                <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg"
-                                     alt="French Autumn"/>
-                                <div class="tour_price ">$5,000</div>
-                            </a>
-                            <div class="portfolio_info_wrapper">
-                                <a class="tour_link" href="tour/french-autumn/index.html"><h4>French Autumn</h4></a>
-                                <div class="tour_excerpt"><p>City Tours, Urban</p></div>
-                                <div class="tour_attribute_wrapper">
-                                    <div class="tour_attribute_rating">
-                                        <div class="br-theme-fontawesome-stars-o">
-                                            <div class="br-widget"><a href="javascript:;" class="br-selected"></a><a
-                                                        href="javascript:;" class="br-selected"></a><a
-                                                        href="javascript:;" class="br-selected"></a><a
-                                                        href="javascript:;" class="br-selected"></a><a
-                                                        href="javascript:;"></a></div>
+                <div id="15268154921304978810" class="portfolio_filter_wrapper gallery classic four_cols" data-columns="4">
+    @foreach($tours as $tour)
+                        <div class="element grid classic4_cols animated1">
+                            <div class="one_fourth gallery4 classic static filterable portfolio_type themeborder"><a
+                                        class="tour_image" href="tour/french-autumn/index.html">
+                                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg"
+                                         alt="French Autumn"/>
+                                    <div class="tour_price ">{{ $tour->price }}</div>
+                                </a>
+                                <div class="portfolio_info_wrapper">
+                                    <a class="tour_link" href="tour/french-autumn/index.html"><h4>{{ $tour->name }}</h4></a>
+                                    <div class="tour_excerpt"><p>{{ $tour->descritpion }}</p></div>
+                                    <div class="tour_attribute_wrapper">
+                                        <div class="tour_attribute_rating">
+                                            <div class="br-theme-fontawesome-stars-o">
+                                                <div class="br-widget"><a href="javascript:;" class="br-selected"></a><a
+                                                            href="javascript:;" class="br-selected"></a><a
+                                                            href="javascript:;" class="br-selected"></a><a
+                                                            href="javascript:;" class="br-selected"></a><a
+                                                            href="javascript:;"></a></div>
+                                            </div>
+                                            <div class="tour_attribute_rating_count">4&nbsp;reviews</div>
                                         </div>
-                                        <div class="tour_attribute_rating_count">4&nbsp;reviews</div>
+                                        <div class="tour_attribute_days">
+                                            <span class="ti-time"></span>{{ count($tour->days) }}&nbsp;days
+                                        </div>
                                     </div>
-                                    <div class="tour_attribute_days">
-                                        <span class="ti-time"></span>5&nbsp;days
-                                    </div>
+                                    <br class="clear"/>
                                 </div>
-                                <br class="clear"/>
                             </div>
                         </div>
-                    </div>
-                </div>
-                    </div>
+    @endforeach
                 </div>
             </div>
+        </div>
+    </div>
         </div>
     </div>
     <div class="parallax "

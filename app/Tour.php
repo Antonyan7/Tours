@@ -12,7 +12,11 @@ class Tour extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'img', 'description','age','availability','price','departure','departure_time','return_time','included','not_included'
+        'name', 'img', 'description', 'age', 'availability', 'price', 'departure', 'departure_time', 'return_time', 'included', 'not_included'
     ];
+
+    public function days(){
+        return $this->hasManyThrough('App\Day','App\TourDay','tour_id','id','id','day_id');
+    }
 
 }

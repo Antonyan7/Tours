@@ -1,5 +1,3 @@
-{{dump($errors)}}
-
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 <div class="container">
     <form action="{{ route('tourStore') }}" method="post">
@@ -52,7 +50,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="not_included">not_included</label>
-                <input type="text" class="form-control" id="not_included" placeholder="Not included">
+                <input type="text" class="form-control" id="not_included" placeholder="Not included" name="not_included">
             </div>
         </div>
 

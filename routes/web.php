@@ -18,6 +18,6 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/tour-page','TourController@index');
+Route::get('/tour-page/{id}','TourController@index');
 Route::get('/tour-page/create','TourController@create');
 Route::post('/tour-page/store','TourController@store')->name('tourStore');
