@@ -1,51 +1,54 @@
+{{dump($errors)}}
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 <div class="container">
-    <form>
+    <form action="{{ route('tourStore') }}" method="post">
+        {{csrf_field()}}
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputName4">Name</label>
-                <input type="text" class="form-control" id="inputName4" placeholder="Name">
+                <input type="text" class="form-control" id="inputName4" placeholder="Name" name="name">
             </div>
 
             <div class="form-group col-md-6">
                 <label for="inputDescription4">Description</label>
-                <input type="text" class="form-control" id="inputDescription4" placeholder="Description">
+                <input type="text" class="form-control" id="inputDescription4" placeholder="Description" name="description">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="inputAge">Age</label>
-                <input type="number" class="form-control" id="inputAge" placeholder="Age">
+                <input type="number" class="form-control" id="inputAge" placeholder="Age" name="age">
             </div>
             <div class="form-group col-md-4">
                 <label for="inputAvailability">Availability</label>
-                <input type="number" class="form-control" id="inputAvailability" placeholder="Availability">
+                <input type="text" class="form-control" id="inputAvailability" placeholder="Availability" name="availability">
             </div>
             <div class="form-group col-md-4">
                 <label for="inputPrice">price</label>
-                <input type="number" class="form-control" id="inputPrice" placeholder="Price">
+                <input type="text" class="form-control" id="inputPrice" placeholder="Price" name="price">
             </div>
         </div>
 
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="inputDeparture">departure</label>
-                <input type="text" class="form-control" id="inputDeparture" placeholder="departure">
+                <input type="text" class="form-control" id="inputDeparture" placeholder="Departure" name="departure">
             </div>
             <div class="form-group col-md-4">
                 <label for="inputDepartureTime">Departure Time</label>
-                <input type="text" class="form-control" id="inputDepartureTime" placeholder="departure time">
+                <input type="text" class="form-control" id="inputDepartureTime" placeholder="Departure_time" name="departure_time">
             </div>
             <div class="form-group col-md-4">
                 <label for="returnTime">Return Time</label>
-                <input type="text" class="form-control" id="returnTime" placeholder="Return Time">
+                <input type="text" class="form-control" id="returnTime" placeholder="Return_Time" name="return_time">
             </div>
         </div>
 
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="returnIncluded">included</label>
-                <input type="text" class="form-control" id="returnIncluded" placeholder="included">
+                <input type="text" class="form-control" id="returnIncluded" placeholder="Included" name="included">
             </div>
             <div class="form-group col-md-6">
                 <label for="not_included">not_included</label>
@@ -53,6 +56,19 @@
             </div>
         </div>
 
+        <div class="form-group">
+            <div id="newlink">
+                <div class="feed">
+                    <label for="inputAddress">Day Name</label>
+                    <input class="form-control" type="text" name="dayName[]" value="" size="50">
+                    <label for="inputAddress" class="mt-1">Day Description</label>
+                    <input class="form-control mt-1" type="text" name="dayDesc[]" value="" size="50">
+                </div>
+            </div>
+            <p id="addnew">
+                <a href="javascript:add_feed()">Add New </a>
+            </p>
+        </div>
         <button type="submit" class="btn btn-primary">Create</button>
     </form>
 </div>
@@ -72,19 +88,19 @@
 </div>
 
 <script type="text/javascript">
-    function validate(frm)
-    {
-        var ele = frm.elements['dayName[]'];
-        if (! ele.length)
-        {
-            alert(ele.value);
-        }
-        for(var i=0; i<ele.length; i++)
-        {
-            alert(ele[i].value);
-        }
-        return true;
-    }
+    // function validate(frm)
+    // {
+    //     var ele = frm.elements['dayName[]'];
+    //     if (! ele.length)
+    //     {
+    //         alert(ele.value);
+    //     }
+    //     for(var i=0; i<ele.length; i++)
+    //     {
+    //         alert(ele[i].value);
+    //     }
+    //     return true;
+    // }
     function add_feed()
     {
         var div1 = document.createElement('div');

@@ -20,4 +20,4 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/tour-page','TourController@index');
 Route::get('/tour-page/create','TourController@create');
-Route::get('/tour-page/edit','TourController@edit');
+Route::post('/tour-page/store','TourController@store')->name('tourStore');
