@@ -1067,7 +1067,7 @@
     @foreach($tours as $tour)
                         <div class="element grid classic4_cols animated1">
                             <div class="one_fourth gallery4 classic static filterable portfolio_type themeborder"><a
-                                        class="tour_image" href="tour/french-autumn/index.html">
+                                        class="tour_image" href="/tour-page/{{$tour->id}}">
                                     <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg"
                                          alt="French Autumn"/>
                                     <div class="tour_price ">{{ $tour->price }}</div>

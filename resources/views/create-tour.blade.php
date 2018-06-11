@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 <div class="container">
-    <form action="{{ route('tourStore') }}" method="post">
+
+        {!! Form::open(['action' =>['TourController@store'],
+        'file' =>'true',
+        'enctype' => 'multipart/form-data']) !!}
         {{csrf_field()}}
         <div class="form-row">
             <div class="form-group col-md-6">
@@ -61,6 +64,8 @@
                     <input class="form-control" type="text" name="dayName[]" value="" size="50">
                     <label for="inputAddress" class="mt-1">Day Description</label>
                     <input class="form-control mt-1" type="text" name="dayDesc[]" value="" size="50">
+                    <label for="inputAddress" class="mt-1">Image</label>
+                    <input type="file" name="dayImg[]">
                 </div>
             </div>
             <p id="addnew">
@@ -68,7 +73,7 @@
             </p>
         </div>
         <button type="submit" class="btn btn-primary">Create</button>
-    </form>
+    {!! Form::close() !!}
 </div>
 
 
@@ -82,6 +87,8 @@
         <input type="text" class="form-control" name="dayName[]" value=""  size="50">
         <label for="inputAddress" class="mt-1">Day Description</label>
         <input type="text" class="form-control mt-1" name="dayDesc[]" value=""  size="50">
+        <label for="inputAddress" class="mt-1">Image</label>
+        <input type="file"  name="dayImg[]">
     </div>
 </div>
 

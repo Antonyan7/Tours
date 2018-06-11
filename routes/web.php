@@ -19,5 +19,5 @@
 Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/tour-page/{id}','TourController@index');
-Route::get('/tour-page/create','TourController@create');
-Route::post('/tour-page/store','TourController@store')->name('tourStore');
+Route::get('/create-tour-page/','TourController@create');
+Route::post('/create-tour-page/','TourController@store')->name('tourStore');

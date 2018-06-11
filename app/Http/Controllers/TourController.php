@@ -12,6 +12,7 @@ use App\Day;
 use App\Http\Requests\StoreTourRequest;
 use App\Tour;
 use App\TourDay;
+use Illuminate\Support\Facades\File;
 
 class TourController extends Controller
 {
@@ -21,6 +22,7 @@ class TourController extends Controller
 
     public function __construct(Day $dayModel, Tour $tourModel, TourDay $tourDayModel)
     {
+        $this->middleware('onlyAuthUser')->except('index','store','create');
         $this->dayModel = $dayModel;
         $this->tourModel = $tourModel;
         $this->tourDayModel = $tourDayModel;
@@ -47,8 +49,11 @@ class TourController extends Controller
         return view('create-tour');
     }
 
+
+
     public function store(StoreTourRequest $request)
     {
+
         $days = [];
         $data = $request->except('_token', 'dayName', 'dayDesc');
         $tourId = $this->tourModel->create($data)->id;
@@ -61,10 +66,29 @@ class TourController extends Controller
         }
 
 
+        foreach ($request->file('dayImg') as $key => $dayImg) {
+
+
+            if ($dayImg) {
+
+                $fileOriginalName = $dayImg->getClientOriginalName();
+                $fileExtension = File::extension($fileOriginalName);
+                $generatedFileName = str_random(10);
+                $fileName = $generatedFileName . '.' . $fileExtension;
+                $days[$key]['img'] = $fileName;
+                $dayImg->move(public_path() . '/app-files/tours/' . $tourId . '/day-images/', $fileName);
+            }
+
+
+        }
+
+
         foreach ($days as $day) {
             $dayId = $this->dayModel->create($day)->id;
             $this->tourDayModel->create(['day_id' => $dayId, 'tour_id' => $tourId]);
         }
+
+
 
         return redirect('/');
     }
