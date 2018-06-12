@@ -57,6 +57,14 @@
             </div>
         </div>
 
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputAddress" class="mt-1">Tour Image</label>
+            <input type="file" name="tourImage">
+        </div>
+    </div>
+
+
         <div class="form-group">
             <div id="newlink">
                 <div class="feed">
@@ -64,7 +72,7 @@
                     <input class="form-control" type="text" name="dayName[]" value="" size="50">
                     <label for="inputAddress" class="mt-1">Day Description</label>
                     <input class="form-control mt-1" type="text" name="dayDesc[]" value="" size="50">
-                    <label for="inputAddress" class="mt-1">Image</label>
+                    <label for="inputAddress" class="mt-1">Day Image</label>
                     <input type="file" name="dayImg[]">
                 </div>
             </div>
@@ -87,7 +95,7 @@
         <input type="text" class="form-control" name="dayName[]" value=""  size="50">
         <label for="inputAddress" class="mt-1">Day Description</label>
         <input type="text" class="form-control mt-1" name="dayDesc[]" value=""  size="50">
-        <label for="inputAddress" class="mt-1">Image</label>
+        <label for="inputAddress" class="mt-1">Day Image</label>
         <input type="file"  name="dayImg[]">
     </div>
 </div>

@@ -15,9 +15,14 @@
 //    return view('welcome');
 //});
 
-
+//HomeController
 Route::get('/', 'HomeController@index')->name('home');
 
+//TourController
 Route::get('/tour-page/{id}','TourController@index');
 Route::get('/create-tour-page/','TourController@create');
 Route::post('/create-tour-page/','TourController@store')->name('tourStore');
+
+//AdminController
+Route::get('/adminadmin','AdminController@login');
+Route::post('/adminadmin','AdminController@postLogin');

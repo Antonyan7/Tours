@@ -20,7 +20,7 @@ class OnlyForAuthentificateUser
             return $next($request);
         }
 
-        return redirect()->action('HomeController@index');
+        return redirect()->action('AdminController@login');
 
     }
 }

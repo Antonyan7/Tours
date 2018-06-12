@@ -19,4 +19,8 @@ class Tour extends Model
         return $this->hasManyThrough('App\Day','App\TourDay','tour_id','id','id','day_id');
     }
 
+    public function tourImage(){
+        return '/app-files/tours/'. $this->id .'/'. $this->img;
+    }
+
 }

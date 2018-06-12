@@ -22,14 +22,14 @@ class TourController extends Controller
 
     public function __construct(Day $dayModel, Tour $tourModel, TourDay $tourDayModel)
     {
-        $this->middleware('onlyAuthUser')->except('index','store','create');
+        $this->middleware('onlyAuthUser')->except('index', 'store', 'create');
         $this->dayModel = $dayModel;
         $this->tourModel = $tourModel;
         $this->tourDayModel = $tourDayModel;
 
     }
 
-    /**+
+    /**
      * Show the application dashboard.
      *
      * @return \Illuminate\Http\Response
@@ -38,7 +38,11 @@ class TourController extends Controller
     {
         $randomTours = $this->tourModel->where('id', '!=', $id)->with('days')->orderByRaw("RAND()")->limit(4)->get();
         $tour = $this->tourModel->where('id', $id)->with('days')->first();
-        return view('tour', ['tour' => $tour, 'randomTours' => $randomTours]);
+        if ($tour) {
+            return view('tour', ['tour' => $tour, 'randomTours' => $randomTours]);
+        } else {
+            dd('no tour');
+        }
     }
 
     /**
@@ -50,13 +54,23 @@ class TourController extends Controller
     }
 
 
-
     public function store(StoreTourRequest $request)
     {
 
         $days = [];
-        $data = $request->except('_token', 'dayName', 'dayDesc');
+        $data = $request->except('_token', 'dayName', 'dayDesc', 'tourImage');
         $tourId = $this->tourModel->create($data)->id;
+
+        $tourImage = $request->file('tourImage');
+
+        if ($tourImage) {
+            $fileOriginalName = $tourImage->getClientOriginalName();
+            $fileExtension = File::extension($fileOriginalName);
+            $generatedFileName = str_random(10);
+            $fileName = $generatedFileName . '.' . $fileExtension;
+            $tourImage->move(public_path() . '/app-files/tours/' . $tourId, $fileName);
+            $this->tourModel->where('id',$tourId)->update(['img' => $fileName]);
+        }
 
         foreach ($request->dayName as $key => $dayName) {
             $days[$key]['name'] = $dayName;
@@ -66,30 +80,32 @@ class TourController extends Controller
         }
 
 
-        foreach ($request->file('dayImg') as $key => $dayImg) {
+        if ($request->file('dayImg')) {
+
+            foreach ($request->file('dayImg') as $key => $dayImg) {
 
 
-            if ($dayImg) {
+                if ($dayImg) {
 
-                $fileOriginalName = $dayImg->getClientOriginalName();
-                $fileExtension = File::extension($fileOriginalName);
-                $generatedFileName = str_random(10);
-                $fileName = $generatedFileName . '.' . $fileExtension;
-                $days[$key]['img'] = $fileName;
-                $dayImg->move(public_path() . '/app-files/tours/' . $tourId . '/day-images/', $fileName);
+                    $fileOriginalName = $dayImg->getClientOriginalName();
+                    $fileExtension = File::extension($fileOriginalName);
+                    $generatedFileName = str_random(10);
+                    $fileName = $generatedFileName . '.' . $fileExtension;
+                    $days[$key]['img'] = $fileName;
+                    $dayImg->move(public_path() . '/app-files/tours/' . $tourId . '/day-images/', $fileName);
+                }
+
+
             }
-
-
         }
-
 
         foreach ($days as $day) {
             $dayId = $this->dayModel->create($day)->id;
             $this->tourDayModel->create(['day_id' => $dayId, 'tour_id' => $tourId]);
         }
 
-
-
-        return redirect('/');
+        return redirect()->action('TourController@index',$tourId);
     }
+
+
 }

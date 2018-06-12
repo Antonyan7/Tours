@@ -682,7 +682,7 @@
                             </p>
                             <div id="attachment_3078" style="width: 1450px" class="wp-caption alignnone"><img
                                         class="size-full wp-image-3078"
-                                        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/andrea-sonda-275985.jpg')}}"
+                                        src="@if($day->img){{$day->dayImage()}} @else tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg @endif"
                                         alt="" width="1440" height="960"/>
                             </div>
                         @endforeach
@@ -757,8 +757,9 @@
                              data-id="post-1">
 
                             <a class="tour_image"
-                               href="http://themes.themegoods.com/grandtour/demo2/tour/exclusive-prague-trip/">
-                                <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/prague_hero-700x466.jpg')}}"
+                               {{--href="http://themes.themegoods.com/grandtour/demo2/tour/exclusive-prague-trip/"--}}
+                            >
+                                <img src="@if($tour->img){{$tour->tourImage()}} @else /tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg @endif"
                                      alt="Prague Trip"/>
                                 <div class="tour_price has_discount">
                                     <span class="normal_price">

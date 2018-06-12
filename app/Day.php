@@ -11,4 +11,9 @@ class Day extends Model
         'img',
         'description'
     ];
+
+    public function dayImage(){
+        $tourId = $this->hasOne('App\TourDay','day_id','id')->first()->tour_id;
+        return '/app-files/tours/'. $tourId .'/day-images/'. $this->img;
+    }
 }
