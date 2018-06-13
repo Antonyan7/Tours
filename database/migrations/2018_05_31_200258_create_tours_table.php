@@ -26,6 +26,7 @@ class CreateToursTable extends Migration
             $table->text('return_time')->nullable();
             $table->text('included')->nullable();
             $table->text('not_included')->nullable();
+            $table->integer('category_id')->nullable();
             $table->timestamps();
         });
     }
@@ -37,6 +38,6 @@ class CreateToursTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tour');
+        Schema::dropIfExists('tours');
     }
 }

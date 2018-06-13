@@ -8,6 +8,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Day;
 use App\Http\Requests\StoreTourRequest;
 use App\Tour;
@@ -19,13 +20,15 @@ class TourController extends Controller
     private $dayModel;
     private $tourModel;
     private $tourDayModel;
+    private $categoryModel;
 
-    public function __construct(Day $dayModel, Tour $tourModel, TourDay $tourDayModel)
+    public function __construct(Day $dayModel, Tour $tourModel, TourDay $tourDayModel,Category $categoryModel)
     {
-        $this->middleware('onlyAuthUser')->except('index', 'store', 'create');
+        $this->middleware('onlyAuthUser')->except('index');
         $this->dayModel = $dayModel;
         $this->tourModel = $tourModel;
         $this->tourDayModel = $tourDayModel;
+        $this->categoryModel = $categoryModel;
 
     }
 
@@ -37,7 +40,8 @@ class TourController extends Controller
     public function index($id)
     {
         $randomTours = $this->tourModel->where('id', '!=', $id)->with('days')->orderByRaw("RAND()")->limit(4)->get();
-        $tour = $this->tourModel->where('id', $id)->with('days')->first();
+        $tour = $this->tourModel->where('id', $id)->with('days','category')->first();
+        dd($tour);
         if ($tour) {
             return view('tour', ['tour' => $tour, 'randomTours' => $randomTours]);
         } else {
@@ -48,18 +52,36 @@ class TourController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function create()
+    public function create($id = null)
     {
-        return view('create-tour');
+        $categories = $this->categoryModel->get();
+        $data = [
+            'tour' => null,
+            'id'=> null,
+            'categories' => $categories
+        ];
+        if($id){
+            $tour = $this->tourModel->where('id',$id)->first();
+            if($tour){
+                $data['tour'] = $tour;
+            }
+        }
+
+
+        return view('create-tour',$data);
     }
 
 
-    public function store(StoreTourRequest $request)
+    public function store($updateId = null,StoreTourRequest $request)
     {
-
         $days = [];
-        $data = $request->except('_token', 'dayName', 'dayDesc', 'tourImage');
-        $tourId = $this->tourModel->create($data)->id;
+        $data = $request->except('_token', 'dayName', 'dayDesc','dayImg','tourImage','dayId');
+        if($updateId){
+            $this->tourModel->where('id',$updateId)->update($data);
+            $tourId = $updateId;
+        }else{
+            $tourId = $this->tourModel->create($data)->id;
+        }
 
         $tourImage = $request->file('tourImage');
 
@@ -77,6 +99,8 @@ class TourController extends Controller
         }
         foreach ($request->dayDesc as $key => $dayDesc) {
             $days[$key]['description'] = $dayDesc;
+        }foreach ($request->dayId as $key => $dayId) {
+        $days[$key]['id'] = $dayId;
         }
 
 
@@ -94,14 +118,22 @@ class TourController extends Controller
                     $days[$key]['img'] = $fileName;
                     $dayImg->move(public_path() . '/app-files/tours/' . $tourId . '/day-images/', $fileName);
                 }
-
-
             }
         }
 
         foreach ($days as $day) {
-            $dayId = $this->dayModel->create($day)->id;
-            $this->tourDayModel->create(['day_id' => $dayId, 'tour_id' => $tourId]);
+            $data = array_except($day,'id');
+
+            if($day['id']){
+                $dayId = $day['id'];
+                if(!$data['img']){
+                    $data = array_except($data,'img');
+                }
+                $this->dayModel->where('id',$dayId)->update($data);
+            }else{
+                $dayId = $this->dayModel->create($data)->id;
+                $this->tourDayModel->create(['day_id' => $dayId, 'tour_id' => $tourId]);
+            }
         }
 
         return redirect()->action('TourController@index',$tourId);

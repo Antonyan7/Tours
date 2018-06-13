@@ -4,7 +4,7 @@
 {{csrf_field()}}
 
 <p>login</p>
-<input type="text" name="login" >
+<input type="text" name="email" >
 <p>password</p>
 <input type="password" name="password" >
 

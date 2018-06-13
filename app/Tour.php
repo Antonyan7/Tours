@@ -12,11 +12,18 @@ class Tour extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'img', 'description', 'age', 'availability', 'price', 'departure', 'departure_time', 'return_time', 'included', 'not_included'
+        'name', 'img', 'description', 'age', 'availability', 'price', 'departure', 'departure_time', 'return_time', 'included', 'not_included','category_id'
     ];
 
     public function days(){
         return $this->hasManyThrough('App\Day','App\TourDay','tour_id','id','id','day_id');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function category(){
+        return $this->hasOne('App\category','id','category_id');
     }
 
     public function tourImage(){
