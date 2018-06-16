@@ -41,7 +41,6 @@ class TourController extends Controller
     {
         $randomTours = $this->tourModel->where('id', '!=', $id)->with('days')->orderByRaw("RAND()")->limit(4)->get();
         $tour = $this->tourModel->where('id', $id)->with('days','category')->first();
-        dd($tour);
         if ($tour) {
             return view('tour', ['tour' => $tour, 'randomTours' => $randomTours]);
         } else {

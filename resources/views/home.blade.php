@@ -242,7 +242,7 @@
 <body class="home page-template-default page page-id-3557 ppb_enable">
 
 <input type="hidden" id="tg_cart_url" name="tg_cart_url"
-       value="http://themes.themegoods.com/grandtour/demo2/checkout/"/>
+       value="/"/>
 
 <input type="hidden" id="tg_live_builder" name="tg_live_builder" value="0"/>
 
@@ -261,7 +261,7 @@
             <ul id="mobile_main_menu" class="mobile_main_nav">
                 <li id="menu-item-4"
                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4">
-                    <a href="index.html">Home</a></li>
+                    <a href="/">Home</a></li>
                 <li id="menu-item-6"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6">
                     <a href="#">Booking</a>
@@ -395,7 +395,7 @@
 
                     <div id="logo_normal" class="logo_container">
                         <div class="logo_align">
-                            <a id="custom_logo" class="logo_wrapper hidden" href="index.html">
+                            <a id="custom_logo" class="logo_wrapper hidden" href="/">
                                 <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x.png"
                                      alt="" width="92" height="22"/>
                             </a>
@@ -404,7 +404,7 @@
 
                     <div id="logo_transparent" class="logo_container">
                         <div class="logo_align">
-                            <a id="custom_logo_transparent" class="logo_wrapper default" href="index.html">
+                            <a id="custom_logo_transparent" class="logo_wrapper default" href="/">
                                 <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png"
                                      alt="" width="92" height="22"/>
                             </a>
@@ -412,17 +412,6 @@
                     </div>
                     <!-- End logo -->
 
-                    <div id="menu_search">
-                        <div class="menu_search_wrapper">
-                            <form id="menu_search_form" class="searchform" role="search" method="get"
-                                  action="http://themes.themegoods.com/grandtour/demo2/">
-                                <i class="fa fa-search"></i>
-                                <input type="text" class="field searchform-s" id="s" name="s" value=""
-                                       placeholder="Search tour by keywords" autocomplete="off">
-                                <div id="menu_search_autocomplete" class="autocomplete" data-mousedown="false"></div>
-                            </form>
-                        </div>
-                    </div>
 
                     <div id="menu_wrapper">
                         <div id="nav_wrapper">
@@ -431,100 +420,20 @@
                                     <div class="menu-main-menu-container">
                                         <ul id="main_menu" class="nav">
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4">
-                                                <a href="index.html">Home</a></li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-6">
-                                                <a href="#">Booking</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-3537">
-                                                        <a href="#">Online Payment for Booking</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3536">
-                                                                <a href="tour/grand-switzerland/index.html">Variable
-                                                                    Tour Pricing</a></li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3539">
-                                                                <a href="tour/swiss-alps-trip/index.html">Simple Tour
-                                                                    Pricing</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-3541">
-                                                        <a href="#">Custom Booking Form</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3542">
-                                                                <a href="tour/the-new-california/index.html">Booking
-                                                                    Form + Sub Tour Date</a></li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3544">
-                                                                <a href="tour/niko-trip/index.html">Booking Form +
-                                                                    Custom Date</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-3545">
-                                                        <a href="#">Tour Durations</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3547">
-                                                                <a href="tour/hong-kong/index.html">Single Day Tour</a>
-                                                            </li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3548">
-                                                                <a href="tour/seoul-your-soul/index.html">Multiple Days
-                                                                    Tour</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3549">
-                                                        <a href="tour/5-lake-of-fuji-san/index.html">Custom Booking URL
-                                                            for Affiliate Tour</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3556">
-                                                        <a href="tour/hong-kong/index.html">Custom Booking using custom
-                                                            HTML and plugin</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-3550">
-                                                        <a href="#">Header Options</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3551">
-                                                                <a href="tour/french-autumn/index.html">Standard
-                                                                    Background Header</a></li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3552">
-                                                                <a href="tour/great-britain-travel/index.html">Video
-                                                                    Background Header</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-3553">
-                                                        <a href="#">Layout Options</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3554">
-                                                                <a href="tour/colorful-singapore/index.html">With
-                                                                    Sidebar</a></li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3555">
-                                                                <a href="tour/exclusive-prague-trip/index.html">Fullwidth</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                                <a href="/">Home</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
                                                 <a href="tours/index.html">Tours</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571">
-                                                <a href="destination/north-america/index.html">Destination</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10">
                                                 <a href="about/index.html">About</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                <a href="contact/index.html">Contact</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                                                    <a href="contact/index.html">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Begin right corner buttons -->
-                            <div id="logo_right_button">
 
-                                <!-- Begin side menu -->
-                                <a href="javascript:;" id="mobile_nav_icon"><span class="ti-menu"></span></a>
-                                <!-- End side menu -->
-
-                                <div class="header_cart_wrapper">
-                                    <div class="cart_count">0</div>
-                                    <a href="cart/index.html" title="View Cart"><span
-                                                class="ti-shopping-cart"></span></a>
-                                </div>
-
-                            </div>
                             <!-- End right corner buttons -->
                         </div>
                         <!-- End main nav -->
@@ -854,88 +763,8 @@
                     }
                 </script>
             </div><!-- END REVOLUTION SLIDER --></div>
-        <div class="one withsmallpadding ppb_tour_search" style="padding:0 !important;z-index:2;margin-top:-20px;">
-            <div class="standard_wrapper">
-                <div class="page_content_wrapper">
-                    <div class="inner">
-                        <form id="tour_search_form" class="tour_search_form" method="get"
-                              action="http://themes.themegoods.com/grandtour/demo2/search/">
-                            <div class="tour_search_wrapper">
-                                <div class="one_fourth themeborder">
-                                    <input id="keyword" name="keyword" type="text" autocomplete="off"
-                                           placeholder="Destination, city"/>
-                                    <span class="ti-search"></span>
-                                    <div id="autocomplete" class="autocomplete" data-mousedown="false"></div>
-                                </div>
-                                <div class="one_fourth themeborder"><select id="month" name="month">
-                                        <option value="">Any Month</option>
-                                        <option value="january">January</option>
-                                        <option value="february">February</option>
-                                        <option value="march">March</option>
-                                        <option value="april">April</option>
-                                        <option value="may">May</option>
-                                        <option value="june">June</option>
-                                        <option value="july">July</option>
-                                        <option value="august">August</option>
-                                        <option value="september">September</option>
-                                        <option value="october">October</option>
-                                        <option value="november">November</option>
-                                        <option value="december">December</option>
-                                    </select>
-                                    <span class="ti-calendar"></span>
-                                </div>
-                                <div class="one_fourth themeborder"><select id="sort_by" name="sort_by">
-                                        <option value="date">Sort By Date</option>
-                                        <option value="price_low">Price Low to High</option>
-                                        <option value="price_high">Price High to Low</option>
-                                        <option value="name">Sort By Name</option>
-                                        <option value="popular">Sort By Popularity</option>
-                                        <option value="review">Sort By Review Score</option>
-                                    </select>
-                                    <span class="ti-exchange-vertical"></span>
-                                </div>
-                                <div class="one_fourth last themeborder">
-                                    <input id="tour_search_btn" type="submit" class="button" value="Search"/>
-                                </div>
-                                <br class="clear"/>
-                                <div class="tour_advance_search_wrapper">
-                                    <div class="one_fourth themeborder"><select id="tourcat" name="tourcat">
-                                            <option value="">All Categories</option>
-                                            <option value="mountain">Mountain</option>
-                                            <option value="rural">Rural</option>
-                                            <option value="snow-ice">Snow &amp; Ice</option>
-                                            <option value="wildlife">Wildlife</option>
-                                        </select>
-                                        <span class="ti-angle-down"></span>
-                                    </div>
-                                    <div class="one_fourth themeborder"><select id="destination_id"
-                                                                                name="destination_id">
-                                            <option value="">Any Destinations</option>
-                                            <option value="289">Africa</option>
-                                            <option value="292">Asia</option>
-                                            <option value="291">Australia</option>
-                                            <option value="287">Europe</option>
-                                            <option value="294">North America</option>
-                                            <option value="293">South America</option>
-                                        </select>
-                                        <span class="ti-angle-down"></span>
-                                    </div>
-                                    <div class="one_fourth themeborder">
-                                        <input id="budget" name="budget" type="text" placeholder="Max budget ex. 500"/>
-                                        <span>$</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tour_advance_search_wrapper_link"><a id="tour_advance_search_toggle"
-                                                                             href="javascript:;"
-                                                                             class="theme_link_color"><span
-                                            class="icon ti-angle-down"></span>Advanced Search</a></div>
-                    </div>
-                    </form></div>
-            </div>
-        </div>
     </div>
-    <div class="ppb_destination_metro one nopadding " style="margin-top:-10px;">
+    <div class="ppb_destination_metro one nopadding " style="margin-top: 30px;">
         <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
             <div class="standard_wrapper">
                 <div id="1526815492888590595" class="portfolio_filter_wrapper gallery grid metro portrait four_cols"
@@ -1004,63 +833,8 @@
             </div>
         </div>
     </div>
-    <div class="one withsmallpadding ppb_text"
-         style="padding-bottom:0px !important;text-align:center;padding:30px 0 30px 0;">
-        <div class="standard_wrapper">
-            <div class="page_content_wrapper">
-                <div class="inner">
-                    <div style="margin:auto;width:80%"></p>
-                        <h2>“Every moment and every event of <span style="color:#1C58F6;">every man&#8217;s life</span>
-                            on earth plants something in his soul”</h2>
-                        <p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="one withsmallpadding ppb_text"
-         style="padding-top:20px !important;text-align:center;padding:80px 0 80px 0;margin-top:-20px;">
-        <div class="standard_wrapper">
-            <div class="page_content_wrapper">
-                <div class="inner">
-                    <div style="margin:auto;width:40%">
-                        <script type="text/javascript">(function () {
-                                if (!window.mc4wp) {
-                                    window.mc4wp = {
-                                        listeners: [],
-                                        forms: {
-                                            on: function (event, callback) {
-                                                window.mc4wp.listeners.push({
-                                                    event: event,
-                                                    callback: callback
-                                                });
-                                            }
-                                        }
-                                    }
-                                }
-                            })();
-                        </script>
-                        <!-- MailChimp for WordPress v4.1.6 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-                        <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-3083" method="post" data-id="3083"
-                              data-name="Newsletter">
-                            <div class="mc4wp-form-fields"><input type="email" name="EMAIL"
-                                                                  placeholder="Your Email Address" required/>
-                                <br/>
-                                <input type="submit" value="Subscribe"/>
-                                <div style="display: none;"><input type="text" name="_mc4wp_honeypot" value=""
-                                                                   tabindex="-1" autocomplete="off"/></div>
-                                <input type="hidden" name="_mc4wp_timestamp" value="1526815492"/><input type="hidden"
-                                                                                                        name="_mc4wp_form_id"
-                                                                                                        value="3083"/><input
-                                        type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"/></div>
-                            <div class="mc4wp-response"></div>
-                        </form><!-- / MailChimp for WordPress Plugin -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="ppb_tour_classic one nopadding " style="margin-bottom:50px;">
+
+    <div class="ppb_tour_classic one nopadding " style="margin-top: 100px; margin-bottom:50px;">
         <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
             <div class="standard_wrapper">
                 <div id="15268154921304978810" class="portfolio_filter_wrapper gallery classic four_cols" data-columns="4">
@@ -1070,7 +844,7 @@
                             <div class="one_fourth gallery4 classic static filterable portfolio_type themeborder"><a
                                         class="tour_image" href="/tour-page/{{$tour->id}}">
                                     <img src="@if($tour->img){{$tour->tourImage()}} @else tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg @endif"
-                                         alt="French Autumn"/>
+                                         alt="French Autumn" style="height: 198px; object-fit: cover; object-position: center;"/>
                                     <div class="tour_price ">{{ $tour->price }}</div>
                                 </a>
                                 <div class="portfolio_info_wrapper">
@@ -1215,37 +989,6 @@
                 <p>Mon &#8211; Sat 8.00 &#8211; 18.00 Sunday CLOSED</p>
             </div>
         </li>
-        <li id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h2 class="widgettitle">Newsletter</h2>
-            <script type="text/javascript">(function () {
-                    if (!window.mc4wp) {
-                        window.mc4wp = {
-                            listeners: [],
-                            forms: {
-                                on: function (event, callback) {
-                                    window.mc4wp.listeners.push({
-                                        event: event,
-                                        callback: callback
-                                    });
-                                }
-                            }
-                        }
-                    }
-                })();
-            </script><!-- MailChimp for WordPress v4.1.6 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-            <form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-3083" method="post" data-id="3083"
-                  data-name="Newsletter">
-                <div class="mc4wp-form-fields"><input type="email" name="EMAIL" placeholder="Your Email Address"
-                                                      required/>
-                    <br/>
-                    <input type="submit" value="Subscribe"/>
-                    <div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1"
-                                                       autocomplete="off"/></div>
-                    <input type="hidden" name="_mc4wp_timestamp" value="1526815492"/><input type="hidden"
-                                                                                            name="_mc4wp_form_id"
-                                                                                            value="3083"/><input
-                            type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2"/></div>
-                <div class="mc4wp-response"></div>
-            </form><!-- / MailChimp for WordPress Plugin --></li>
     </ul>
 </div>
 
@@ -1254,77 +997,8 @@
 
     <div class="footer_bar_wrapper ">
         <div class="menu-main-menu-container">
-            <ul id="footer_menu" class="footer_nav">
-                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4">
-                    <a href="index.html">Home</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6">
-                    <a href="#">Booking</a>
-                    <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3537">
-                            <a href="#">Online Payment for Booking</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3536"><a
-                                            href="tour/grand-switzerland/index.html">Variable Tour Pricing</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3539"><a
-                                            href="tour/swiss-alps-trip/index.html">Simple Tour Pricing</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3541">
-                            <a href="#">Custom Booking Form</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3542"><a
-                                            href="tour/the-new-california/index.html">Booking Form + Sub Tour Date</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3544"><a
-                                            href="tour/niko-trip/index.html">Booking Form + Custom Date</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3545">
-                            <a href="#">Tour Durations</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3547"><a
-                                            href="tour/hong-kong/index.html">Single Day Tour</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3548"><a
-                                            href="tour/seoul-your-soul/index.html">Multiple Days Tour</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3549"><a
-                                    href="tour/5-lake-of-fuji-san/index.html">Custom Booking URL for Affiliate Tour</a>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3556"><a
-                                    href="tour/hong-kong/index.html">Custom Booking using custom HTML and plugin</a>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3550">
-                            <a href="#">Header Options</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3551"><a
-                                            href="tour/french-autumn/index.html">Standard Background Header</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3552"><a
-                                            href="tour/great-britain-travel/index.html">Video Background Header</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3553">
-                            <a href="#">Layout Options</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3554"><a
-                                            href="tour/colorful-singapore/index.html">With Sidebar</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3555"><a
-                                            href="tour/exclusive-prague-trip/index.html">Fullwidth</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105"><a
-                            href="tours/index.html">Tours</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a
-                            href="destination/north-america/index.html">Destination</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
-                            href="about/index.html">About</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581"><a
-                            href="contact/index.html">Contact</a></li>
-            </ul>
         </div>
-        <div id="copyright">© Copyright Grand Tour Theme Demo - Theme by ThemeGoods</div>
+        <div id="copyright">© Copyright Roman Zakyan</div>
         <br class="clear"/>
         <a id="toTop" href="javascript:;"><i class="fa fa-angle-up"></i></a>
     </div>

@@ -315,7 +315,7 @@
             <ul id="mobile_main_menu" class="mobile_main_nav">
                 <li id="menu-item-4"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4"><a
-                            href="http://themes.themegoods.com/grandtour/demo2/">Home</a></li>
+                            href="/">Home</a></li>
                 <li id="menu-item-6"
                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-6">
                     <a href="#">Booking</a>
@@ -401,14 +401,15 @@
                 </li>
                 <li id="menu-item-3105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
                     <a href="http://themes.themegoods.com/grandtour/demo2/tours/">Tours</a></li>
-                <li id="menu-item-3571"
-                    class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a
-                            href="http://themes.themegoods.com/grandtour/demo2/destination/north-america/">Destination</a>
-                </li>
+                @if(Auth::check())
+                    <li id="menu-item-3571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                        <a href="javascirpt:void(0)">Edit Tours</a></li>
+                @endif
                 <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
                             href="http://themes.themegoods.com/grandtour/demo2/about/">About</a></li>
                 <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
                     <a href="http://themes.themegoods.com/grandtour/demo2/contact/">Contact</a></li>
+
             </ul>
         </div>
         <!-- Begin side menu sidebar -->
@@ -458,7 +459,7 @@
 
                     <div id="logo_normal" class="logo_container">
                         <div class="logo_align">
-                            <a id="custom_logo" class="logo_wrapper hidden" href="javascript:void()">
+                            <a id="custom_logo" class="logo_wrapper hidden" href="/">
                                 <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x.png')}}"
                                      alt="" width="92" height="22"/>
                             </a>
@@ -468,25 +469,13 @@
                     <div id="logo_transparent" class="logo_container">
                         <div class="logo_align">
                             <a id="custom_logo_transparent" class="logo_wrapper default"
-                               href="http://themes.themegoods.com/grandtour/demo2/">
+                               href="/">
                                 <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png')}}"
                                      alt="" width="92" height="22"/>
                             </a>
                         </div>
                     </div>
                     <!-- End logo -->
-
-                    <div id="menu_search">
-                        <div class="menu_search_wrapper">
-                            <form id="menu_search_form" class="searchform" role="search" method="get"
-                                  action="http://themes.themegoods.com/grandtour/demo2/">
-                                <i class="fa fa-search"></i>
-                                <input type="text" class="field searchform-s" id="s" name="s" value=""
-                                       placeholder="Search tour by keywords" autocomplete="off">
-                                <div id="menu_search_autocomplete" class="autocomplete" data-mousedown="false"></div>
-                            </form>
-                        </div>
-                    </div>
 
                     <div id="menu_wrapper">
                         <div id="nav_wrapper">
@@ -495,104 +484,24 @@
                                     <div class="menu-main-menu-container">
                                         <ul id="main_menu" class="nav">
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
-                                                <a href="http://themes.themegoods.com/grandtour/demo2/">Home</a></li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children arrow menu-item-6">
-                                                <a href="#">Booking</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-3537">
-                                                        <a href="#">Online Payment for Booking</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3536">
-                                                                <a href="http://themes.themegoods.com/grandtour/demo2/tour/grand-switzerland/">Variable
-                                                                    Tour Pricing</a></li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3539">
-                                                                <a href="http://themes.themegoods.com/grandtour/demo2/tour/swiss-alps-trip/">Simple
-                                                                    Tour Pricing</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-3541">
-                                                        <a href="#">Custom Booking Form</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3542">
-                                                                <a href="http://themes.themegoods.com/grandtour/demo2/tour/the-new-california/">Booking
-                                                                    Form + Sub Tour Date</a></li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3544">
-                                                                <a href="http://themes.themegoods.com/grandtour/demo2/tour/niko-trip/">Booking
-                                                                    Form + Custom Date</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-3545">
-                                                        <a href="#">Tour Durations</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3547">
-                                                                <a href="http://themes.themegoods.com/grandtour/demo2/tour/hong-kong/">Single
-                                                                    Day Tour</a></li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3548">
-                                                                <a href="http://themes.themegoods.com/grandtour/demo2/tour/seoul-your-soul/">Multiple
-                                                                    Days Tour</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3549">
-                                                        <a href="http://themes.themegoods.com/grandtour/demo2/tour/5-lake-of-fuji-san/">Custom
-                                                            Booking URL for Affiliate Tour</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3556">
-                                                        <a href="http://themes.themegoods.com/grandtour/demo2/tour/hong-kong/">Custom
-                                                            Booking using custom HTML and plugin</a></li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children arrow menu-item-3550">
-                                                        <a href="#">Header Options</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour current-menu-item menu-item-3551">
-                                                                <a href="index.html">Standard Background Header</a></li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3552">
-                                                                <a href="http://themes.themegoods.com/grandtour/demo2/tour/great-britain-travel/">Video
-                                                                    Background Header</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children arrow menu-item-3553">
-                                                        <a href="#">Layout Options</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3554">
-                                                                <a href="http://themes.themegoods.com/grandtour/demo2/tour/colorful-singapore/">With
-                                                                    Sidebar</a></li>
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3555">
-                                                                <a href="http://themes.themegoods.com/grandtour/demo2/tour/exclusive-prague-trip/">Fullwidth</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                                <a href="/">Home</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
-                                                <a href="http://themes.themegoods.com/grandtour/demo2/tours/">Tours</a>
+                                                <a href="/">Similar Tours</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571">
-                                                <a href="http://themes.themegoods.com/grandtour/demo2/destination/north-america/">Destination</a>
+                                                <a href="/">Destination</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10">
-                                                <a href="http://themes.themegoods.com/grandtour/demo2/about/">About</a>
+                                                <a href="/">About</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                <a href="http://themes.themegoods.com/grandtour/demo2/contact/">Contact</a>
+                                                <a href="/">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Begin right corner buttons -->
-                            <div id="logo_right_button">
-
-                                <!-- Begin side menu -->
-                                <a href="javascript:;" id="mobile_nav_icon"><span class="ti-menu"></span></a>
-                                <!-- End side menu -->
-
-                                <div class="header_cart_wrapper">
-                                    <div class="cart_count">0</div>
-                                    <a href="http://themes.themegoods.com/grandtour/demo2/cart/" title="View Cart"><span
-                                                class="ti-shopping-cart"></span></a>
-                                </div>
-
-                            </div>
-                            <!-- End right corner buttons -->
                         </div>
                         <!-- End main nav -->
                     </div>
@@ -605,7 +514,7 @@
          style="background-image:url({{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4.jpg')}}';">
         <div class="overlay_background visible"></div>
 
-        <div class="page_title_wrapper">
+        <div class="page_title_wrapper" style="background: url('{{$tour->tourImage()}}') no-repeat">
             <div class="page_title_inner">
                 <div class="page_title_content">
                     <div class="page_title_small_content">
@@ -682,6 +591,7 @@
                             </p>
                             <div id="attachment_3078" style="width: 1450px" class="wp-caption alignnone"><img
                                         class="size-full wp-image-3078"
+                                        style="width: 1440px; height: 960px; object-fit: cover; object-position: center;"
                                         src="@if($day->img){{$day->dayImage()}} @else tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg @endif"
                                         alt="" width="1440" height="960"/>
                             </div>
@@ -757,10 +667,9 @@
                              data-id="post-1">
 
                             <a class="tour_image"
-                               {{--href="http://themes.themegoods.com/grandtour/demo2/tour/exclusive-prague-trip/"--}}
                             >
                                 <img src="@if($tour->img){{$tour->tourImage()}} @else /tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg @endif"
-                                     alt="Prague Trip"/>
+                                     alt="Prague Trip" style="height: 198px; object-fit: cover; object-position: center;"/>
                                 <div class="tour_price has_discount">
                                     <span class="normal_price">
 									</span>
@@ -770,7 +679,7 @@
 
                             <div class="portfolio_info_wrapper">
                                 <a class="tour_link"
-                                   href="http://themes.themegoods.com/grandtour/demo2/tour/exclusive-prague-trip/"><h4>
+                                   href="/"><h4>
                                         {{ $tour->name }}</h4></a>
                                 <div class="tour_excerpt"><p>{{ $tour->description }}</p>
                                 </div>
@@ -882,7 +791,7 @@
         <div class="menu-main-menu-container">
             <ul id="footer_menu" class="footer_nav">
                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4"><a
-                            href="http://themes.themegoods.com/grandtour/demo2/">Home</a></li>
+                            href="/">Home</a></li>
                 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-6">
                     <a href="#">Booking</a>
                     <ul class="sub-menu">
@@ -890,10 +799,10 @@
                             <a href="#">Online Payment for Booking</a>
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3536"><a
-                                            href="http://themes.themegoods.com/grandtour/demo2/tour/grand-switzerland/">Variable
+                                            href="/">Variable
                                         Tour Pricing</a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3539"><a
-                                            href="http://themes.themegoods.com/grandtour/demo2/tour/swiss-alps-trip/">Simple
+                                            href="/">Simple
                                         Tour Pricing</a></li>
                             </ul>
                         </li>
@@ -901,10 +810,10 @@
                             <a href="#">Custom Booking Form</a>
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3542"><a
-                                            href="http://themes.themegoods.com/grandtour/demo2/tour/the-new-california/">Booking
+                                            href="/">Booking
                                         Form + Sub Tour Date</a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3544"><a
-                                            href="http://themes.themegoods.com/grandtour/demo2/tour/niko-trip/">Booking
+                                            href="/">Booking
                                         Form + Custom Date</a></li>
                             </ul>
                         </li>
@@ -912,26 +821,26 @@
                             <a href="#">Tour Durations</a>
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3547"><a
-                                            href="http://themes.themegoods.com/grandtour/demo2/tour/hong-kong/">Single
+                                            href="/">Single
                                         Day Tour</a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3548"><a
-                                            href="http://themes.themegoods.com/grandtour/demo2/tour/seoul-your-soul/">Multiple
+                                            href="/">Multiple
                                         Days Tour</a></li>
                             </ul>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3549"><a
-                                    href="http://themes.themegoods.com/grandtour/demo2/tour/5-lake-of-fuji-san/">Custom
+                                    href="/">Custom
                                 Booking URL for Affiliate Tour</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3556"><a
-                                    href="http://themes.themegoods.com/grandtour/demo2/tour/hong-kong/">Custom Booking
+                                    href="/">Custom Booking
                                 using custom HTML and plugin</a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3550">
                             <a href="#">Header Options</a>
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour current-menu-item menu-item-3551">
-                                    <a href="index.html">Standard Background Header</a></li>
+                                    <a href="/">Standard Background Header</a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3552"><a
-                                            href="http://themes.themegoods.com/grandtour/demo2/tour/great-britain-travel/">Video
+                                            href="/">Video
                                         Background Header</a></li>
                             </ul>
                         </li>
@@ -939,24 +848,24 @@
                             <a href="#">Layout Options</a>
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3554"><a
-                                            href="http://themes.themegoods.com/grandtour/demo2/tour/colorful-singapore/">With
+                                            href="/">With
                                         Sidebar</a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3555"><a
-                                            href="http://themes.themegoods.com/grandtour/demo2/tour/exclusive-prague-trip/">Fullwidth</a>
+                                            href="/">Fullwidth</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105"><a
-                            href="http://themes.themegoods.com/grandtour/demo2/tours/">Tours</a></li>
+                            href="/">Tours</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a
-                            href="http://themes.themegoods.com/grandtour/demo2/destination/north-america/">Destination</a>
+                            href="/">Destination</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
-                            href="http://themes.themegoods.com/grandtour/demo2/about/">About</a></li>
+                            href="/">About</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581"><a
-                            href="http://themes.themegoods.com/grandtour/demo2/contact/">Contact</a></li>
+                            href="/">Contact</a></li>
             </ul>
         </div>
         <div id="copyright">\A9 Copyright Grand Tour Theme Demo - Theme by ThemeGoods</div>
