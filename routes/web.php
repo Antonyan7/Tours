@@ -22,6 +22,7 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/tour-page/{id}','TourController@index');
 Route::get('/create-tour-page/{id?}','TourController@create');
 Route::post('/create-tour-page/{updateId?}','TourController@store')->name('tourStore');
+Route::get('/remove-tour-page/{id}','TourController@remove');
 
 //AdminController
 Route::get('/adminadmin','AdminController@login');

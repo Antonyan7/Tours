@@ -139,5 +139,27 @@ class TourController extends Controller
         return redirect()->action('TourController@index',$tourId);
     }
 
+    public function remove($id)
+    {
+        $tour = $this->tourModel->where('id', $id)->with('days', 'tourDays')->get();
+        if (isset($tour->id)) {
+
+            foreach ($tour->days as $day) {
+                $day->delete();
+            }
+
+            foreach ($tour->tourDays as $tourDay) {
+                $tourDay->delete();
+            }
+            $tour->delete();
+
+        File::deleteDirectory(public_path() . '/app-files/tours/' . $id);
+
+            return redirect()->action('HomeController@index');
+    }else{
+            dd('no tour');
+        }
+
+    }
 
 }

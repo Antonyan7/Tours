@@ -19,6 +19,10 @@ class Tour extends Model
         return $this->hasManyThrough('App\Day','App\TourDay','tour_id','id','id','day_id');
     }
 
+    public function tourDays(){
+        return $this->hasMany('App\TourDay','tour_id','id');
+    }
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasOne
      */
