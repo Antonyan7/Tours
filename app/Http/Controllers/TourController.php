@@ -144,7 +144,8 @@ class TourController extends Controller
      */
     public function remove($id)
     {
-        $tour = $this->tourModel->where('id', $id)->with('days', 'tourDays')->get();
+        $tour = $this->tourModel->where('id', $id)->with('days', 'tourDays')->first();
+
         if (isset($tour->id)) {
 
             foreach ($tour->days as $day) {
