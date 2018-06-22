@@ -27,6 +27,7 @@ Route::get('/remove-tour-page/{id}','TourController@remove');
 //AdminController
 Route::get('/adminadmin','AdminController@login');
 Route::post('/adminadmin','AdminController@postLogin');
+Route::get('/logout','AdminController@logout');
 
 
 //CategoriesController

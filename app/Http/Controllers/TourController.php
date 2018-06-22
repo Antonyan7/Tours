@@ -125,7 +125,7 @@ class TourController extends Controller
 
             if($day['id']){
                 $dayId = $day['id'];
-                if(!$data['img']){
+                if(!isset($data['img'])){
                     $data = array_except($data,'img');
                 }
                 $this->dayModel->where('id',$dayId)->update($data);

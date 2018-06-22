@@ -73,7 +73,13 @@
                 <a target="_blank" href="{{$tour->tourImage()}}"> view image </a>
                 @endisset
         </div>
+        <div class="form-group col-md-4">
+            <label for="not_included">Video Link</label>
+            <input type="text" class="form-control" id="not_included" placeholder="Not included" name="video_link" value="@isset($tour->video_link) {{$tour->viseo_link}} @endisset">
+        </div>
     </div>
+
+
 
 
         <div class="form-group">

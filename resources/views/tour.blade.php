@@ -13,7 +13,7 @@
           href="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/08/TG-Thumb.png"/>
 
 
-    <title>French Autumn &#8211; Grand Tour Theme Demo 2 | Tour &amp; Travel WordPress</title>
+    <title>{{$tour->name}}</title>
     <style type="text/css"
            media="screen">#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active, #ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover, body #booked-profile-page input[type=submit].button-primary:hover, body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover, body table.booked-calendar input[type=submit].button-primary:hover, body .booked-modal input[type=submit].button-primary:hover, body table.booked-calendar th, body table.booked-calendar thead, body table.booked-calendar thead th, body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover, body #booked-profile-page .booked-profile-header, body #booked-profile-page .booked-tabs li.active a, body #booked-profile-page .booked-tabs li.active a:hover, body #booked-profile-page .appt-block .google-cal-button > a:hover, #ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header {
             background: #1c58f6 !important;
@@ -527,8 +527,9 @@
                            data-type="inline"><span class="ti-control-play"></span>Video Preview</a>
 
                         <div id="video_review180" class="tour_video_preview_wrapper" style="display:none;">
-                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/UaF9otkOXXY"
-                                    frameborder="0" allowfullscreen></iframe>
+                            <iframe width="1280" height="720" src="{{$tour->video_link}}"
+                                    frameborder="0" allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
                 </div>
