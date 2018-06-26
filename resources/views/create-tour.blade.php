@@ -133,8 +133,8 @@
         @endif
 
         <p id="addnew">
-            <a id="addNewButton" href="javascript:add_feed()" data-index="{{$tour->days? count($tour->days) : 0}}">Add
-                New </a>
+            <a id="addNewButton" href="javascript:add_feed()" data-index="@if(isset($tour->days)){{count($tour->days)}}@else{{0}}@endif">
+                Add New </a>
         </p>
     </div>
     <button type="submit" class="btn btn-primary">@isset($tour) Update @else Create @endisset</button>
