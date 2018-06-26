@@ -401,14 +401,16 @@
                 </li>
                 <li id="menu-item-3105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
                     <a href="http://themes.themegoods.com/grandtour/demo2/tours/">Tours</a></li>
-                @if(Auth::check())
-                    <li id="menu-item-3571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                        <a href="javascirpt:void(0)">Edit Tours</a></li>
-                @endif
                 <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
                             href="http://themes.themegoods.com/grandtour/demo2/about/">About</a></li>
                 <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
                     <a href="http://themes.themegoods.com/grandtour/demo2/contact/">Contact</a></li>
+                @if(auth()->check())
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
+                        <a href="{{ action('TourController@create',$tour->id) }}">Edit Tour</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
+                        <a href="{{ action('TourController@remove',$tour->id) }}">Delete Tour</a></li>
+                @endif
 
             </ul>
         </div>
@@ -486,17 +488,21 @@
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
                                                 <a href="/">Home</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
-                                                <a href="/">Similar Tours</a>
+                                                <a href="javascript:scrollTo('sim_tours')">Similar Tours</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571">
-                                                <a href="/">Destination</a>
-                                            </li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10">
-                                                <a href="/">About</a>
+                                                <a href="javascript:scrollTo('destination')">Destination</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                <a href="/">Contact</a>
+                                                <a href="javascript:scrollTo('footer')">Contact</a>
                                             </li>
+                                            @if(auth()->check())
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
+                                                    <a href="{{ action('TourController@create',$tour->id) }}">Edit Tour</a></li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
+                                                    <a href="{{ action('TourController@remove',$tour->id) }}">Delete Tour</a></li>
+                                            @endif
+
                                         </ul>
                                     </div>
                                 </div>
@@ -545,7 +551,7 @@
             <div class="inner_wrapper">
 
 
-                <div class="sidebar_content full_width">
+                <div class="sidebar_content full_width" id="destination">
 
                     <div class="single_tour_attribute_wrapper themeborder fullwidth">
                         <div class="one_fifth">
@@ -658,7 +664,7 @@
         <!-- End main content -->
 
         <br class="clear"/>
-        <div class="tour_related">
+        <div class="tour_related" id="sim_tours">
             <h3 class="sub_title">Similar Tours</h3>
             <div id="portfolio_filter_wrapper"
                  class="gallery classic four_cols portfolio-content section content clearfix" data-columns="4">
@@ -751,7 +757,7 @@
                 <p>Mon &#8211; Sat 8.00 &#8211; 18.00 Sunday CLOSED</p>
             </div>
         </li>
-        <li id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h2 class="widgettitle">Newsletter</h2>
+        {{--<li id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h2 class="widgettitle">Newsletter</h2>
             <script type="text/javascript">(function () {
                     if (!window.mc4wp) {
                         window.mc4wp = {
@@ -781,7 +787,7 @@
                                                                                             value="3083"/><input
                             type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"/></div>
                 <div class="mc4wp-response"></div>
-            </form><!-- / MailChimp for WordPress Plugin --></li>
+            </form><!-- / MailChimp for WordPress Plugin --></li>--}}
     </ul>
 </div>
 
@@ -1418,6 +1424,26 @@
 <script type='text/javascript'
         src='http://themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js")}}'></script>
 <![endif]-->
+<script>
+    function scrollTo(hash) {
+        location.hash = "#" + hash;
+        window.scroll({
+            top: 2500,
+            left: 0,
+            behavior: 'smooth'
+        });
+
+        window.scrollBy({
+            top: 100, // could be negative value
+            left: 0,
+            behavior: 'smooth'
+        });
+
+        document.querySelector('.hello').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
 </body>
 
 <!-- Mirrored from themes.themegoods.com/grandtour/demo2/tour/french-autumn/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 May 2018 17:25:34 GMT -->

@@ -7,7 +7,8 @@ use Illuminate\Support\Facades\Auth;
 
 class AdminController extends Controller
 {
-    public function login(){
+    public function login()
+    {
         return view('login');
     }
 
@@ -27,7 +28,8 @@ class AdminController extends Controller
     /**
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function logout(){
+    public function logout()
+    {
         Auth::logout();
         return redirect()->action('HomeController@index');
     }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Tour;
 use Illuminate\Http\Request;
 
@@ -22,10 +23,11 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Tour $tourModel)
+    public function index(Tour $tourModel,Category $categoryModel)
     {
         $tours = $tourModel->with('days')->get();
-        return view('home',['tours' => $tours]);
+        $categories = $categoryModel->get();
+        return view('home',['tours' => $tours,'categories' => $categories]);
     }
 
 }

@@ -346,6 +346,12 @@
                             href="about/index.html">About</a></li>
                 <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
                     <a href="contact/index.html">Contact</a></li>
+                @if(auth()->check())
+                    <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                        <a href="{{ action('TourController@create')  }}">Create Tour</a></li>
+                    <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                        <a href="{{ action('CategoriesController@createCategory')  }}">Create Category</a></li>
+                @endif
             </ul>
         </div>
         <!-- Begin side menu sidebar -->
@@ -422,11 +428,17 @@
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4">
                                                 <a href="/">Home</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
-                                                <a href="tours/index.html">Tours</a></li>
+                                                <a href="javascript:scrollTo('tours')">Tours</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10">
-                                                <a href="about/index.html">About</a></li>
+                                                <a href="javascript:scrollTo('about')">About</a></li>
                                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                    <a href="contact/index.html">Contact</a></li>
+                                                    <a href="javascript:scrollTo('footer')">Contact</a></li>
+                                            @if(auth()->check())
+                                                <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                                                    <a href="{{ action('TourController@create')  }}">Create Tour</a></li>
+                                                <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                                                    <a href="{{ action('CategoriesController@createCategory')  }}">Create Category</a></li>
+                                            @endif
                                         </ul>
                                     </div>
                                 </div>
@@ -769,7 +781,33 @@
             <div class="standard_wrapper">
                 <div id="1526815492888590595" class="portfolio_filter_wrapper gallery grid metro portrait four_cols"
                      data-columns="4">
-                    <div class="element grid center classic4_cols double_size animated1">
+                    @foreach($categories as $category)
+                        @if($loop->index % 3  == 0)
+                            <div class="element grid center classic4_cols double_size animated1">
+                                <div class="one_fourth gallery4 double_size grid static filterable portfolio_type themeborder"
+                                     style="background-image:url({{$category->img ? $category->categoryImg() : ''}});">
+                                    <div class="ppb_background_overlay light"></div>
+                                    <a class="tour_image" href="destination/north-america/index.html"></a>
+                                    <div class="portfolio_info_wrapper">
+                                        <div class="portfolio_info_content"><h3>{{$category->name}}</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+                        @endif
+                        @if($loop->index % 3  != 0)
+                                <div class="element grid center classic4_cols animated2">
+                                    <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
+                                         style="background-image:url({{$category->img ? $category->categoryImg() : ''}});">
+                                        <div class="ppb_background_overlay light"></div>
+                                        <a class="tour_image" href="destination/south-america/index.html"></a>
+                                        <div class="portfolio_info_wrapper">
+                                            <div class="portfolio_info_content"><h3>{{$category->name}}</h3></div>
+                                        </div>
+                                    </div>
+                                </div>
+                        @endif
+                    @endforeach
+                    {{--<div class="element grid center classic4_cols double_size animated1">
                         <div class="one_fourth gallery4 double_size grid static filterable portfolio_type themeborder"
                              style="background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-481795-960x636.jpg);">
                             <div class="ppb_background_overlay light"></div>
@@ -788,8 +826,8 @@
                                 <div class="portfolio_info_content"><h3>South America</h3></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="element grid center classic4_cols animated3">
+                    </div>--}}
+                    {{--<div class="element grid center classic4_cols animated3">
                         <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
                              style="background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-479344-700x466.jpg);">
                             <div class="ppb_background_overlay light"></div>
@@ -828,13 +866,13 @@
                                 <div class="portfolio_info_content"><h3>Europe</h3></div>
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="ppb_tour_classic one nopadding " style="margin-top: 100px; margin-bottom:50px;">
+    <div class="ppb_tour_classic one nopadding " style="margin-top: 100px; margin-bottom:50px;" id="tours">
         <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
             <div class="standard_wrapper">
                 <div id="15268154921304978810" class="portfolio_filter_wrapper gallery classic four_cols" data-columns="4">
@@ -848,7 +886,7 @@
                                     <div class="tour_price ">{{ $tour->price }}</div>
                                 </a>
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="tour/french-autumn/index.html"><h4>{{ $tour->name }}</h4></a>
+                                    <a class="tour_link" href="/tour-page/{{$tour->id}}"><h4>{{ $tour->name }}</h4></a>
                                     <div class="tour_excerpt"><p>{{ $tour->descritpion }}</p></div>
                                     <div class="tour_attribute_wrapper">
                                         <div class="tour_attribute_rating">
@@ -878,7 +916,7 @@
     </div>
     <div class="parallax "
          style="background-image: url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-259522.jpg);height:50vh; "></div>
-    <div class="one withsmallpadding ppb_header "
+    <div class="one withsmallpadding ppb_header " id="about"
          style="padding-bottom: 0px !important;text-align:left;padding:60px 0 60px 0;">
         <div class="standard_wrapper">
             <div class="page_content_wrapper">
@@ -1423,6 +1461,26 @@
 <script type="text/javascript"
         src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
 
+<script>
+    function scrollTo(hash) {
+        location.hash = "#" + hash;
+        window.scroll({
+            top: 2500,
+            left: 0,
+            behavior: 'smooth'
+        });
+
+        window.scrollBy({
+            top: 100, // could be negative value
+            left: 0,
+            behavior: 'smooth'
+        });
+
+        document.querySelector('.hello').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
 </body>
 </html>
 
