@@ -536,7 +536,7 @@
                             {{--<iframe width="1280" height="720" src="{{$tour->video_link}}"--}}
                                     {{--frameborder="0" allowfullscreen>--}}
                             {{--</iframe>--}}
-                            <iframe width="70%" height="800" src="{{$tour->video_link}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe width="70%" height="600" src="{{$tour->video_link}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -572,7 +572,7 @@
                         <div class="one_fifth">
                             <div class="tour_attribute_icon ti-calendar"></div>
                             <div class="tour_attribute_content">
-                                Sep,&nbsp;Oct,&nbsp;Nov
+Whole Time With You
                             </div>
                         </div>
 
