@@ -133,7 +133,8 @@
         @endif
 
         <p id="addnew">
-            <a href="javascript:add_feed()">Add New </a>
+            <a id="addNewButton" href="javascript:add_feed()" data-index="{{$tour->days? count($tour->days) : 0}}">Add
+                New </a>
         </p>
     </div>
     <button type="submit" class="btn btn-primary">@isset($tour) Update @else Create @endisset</button>
@@ -148,13 +149,17 @@
 </style>
 <!-- Template. This whole data will be added directly to working form above -->
 <div id="newlinktpl" style="display:none">
-    <div class="feed">
+    <div class="feed" id="index-feed">
         <label for="inputAddress" class="mt-1">Day Name</label>
         <input type="text" class="form-control" name="dayName[]" value="" size="50">
         <label for="inputAddress" class="mt-1">Day Description</label>
         <input type="text" class="form-control mt-1" name="dayDesc[]" value="" size="50">
         <input class="form-control mt-1" type="hidden" name="dayId[]" value="" size="50">
         <label for="inputAddress" class="mt-1">Day Image</label>
+        <div class="mt-1" id="deleteTourDay"  onclick="delete_feed(index())"
+             style="display: inline-block; background-color: #cc0000; color: #fff; padding: 10px; cursor: pointer;">
+            Delete Day
+        </div>
         <input type="file" name="dayImg[]">
     </div>
 </div>
@@ -173,14 +178,38 @@
     //     }
     //     return true;
     // }
+
+    function index() {
+        var index = document.getElementById('addNewButton').getAttribute("data-index");
+        index = parseInt(index) + 1;
+        console.log(index);
+        document.getElementById('deleteTourDay').innerHTML= 'day ' + index;
+        console.log(index);
+        return index;
+    }
+
     function add_feed() {
+        var index = document.getElementById('addNewButton').getAttribute("data-index");
+        index = parseInt(index) + 1;
+        document.getElementById('addNewButton').setAttribute("data-index", index);
         var div1 = document.createElement('div');
-        div1.innerHTML = document.getElementById('newlinktpl').innerHTML;
+
+       div1.innerHTML = document.getElementById('newlinktpl').innerHTML;
+        div1.innerHTML = div1.innerHTML.replace("index-feed", index + '-feed');
+        div1.innerHTML = div1.innerHTML.replace("delete_feed(index())", "delete_feed("+index +")");
+        div1.innerHTML = div1.innerHTML.replace("Delete Day", "Delete Day"+index );
+        div1.innerHTML = div1.innerHTML.replace("Day Name", "Day "+index+" Name" );
+        div1.innerHTML = div1.innerHTML.replace("Day Description", "Day "+index+" Description" );
+        console.log(div1.innerHTML);
         document.getElementById('newlink').appendChild(div1);
     }
 
-    function delete_feed(e) {
-        var deleteDiv = document.getElementById(e+'-feed');
-        deleteDiv.remove();
+    function delete_feed(e = null) {
+
+        if (e != 1) {
+            var deleteDiv = document.getElementById(e + '-feed');
+            deleteDiv.remove();
+        }
+
     }
 </script>
