@@ -533,9 +533,10 @@
                            data-type="inline"><span class="ti-control-play"></span>Video Preview</a>
 
                         <div id="video_review180" class="tour_video_preview_wrapper" style="display:none;">
-                            <iframe width="1280" height="720" src="{{$tour->video_link}}"
-                                    frameborder="0" allowfullscreen>
-                            </iframe>
+                            {{--<iframe width="1280" height="720" src="{{$tour->video_link}}"--}}
+                                    {{--frameborder="0" allowfullscreen>--}}
+                            {{--</iframe>--}}
+                            <iframe width="70%" height="800" src="{{$tour->video_link}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
