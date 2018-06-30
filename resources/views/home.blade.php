@@ -343,9 +343,9 @@
                     class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a href="">Destination</a>
                 </li>
                 <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
-                            href="about/index.html">о нас</a></li>
+                            href="about/index.html">О нас</a></li>
                 <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                    <a href="contact/index.html">контакты</a></li>
+                    <a href="contact/index.html">Контакты</a></li>
                 @if(auth()->check())
                     <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
                         <a href="{{ action('TourController@create')  }}">Create Tour</a></li>

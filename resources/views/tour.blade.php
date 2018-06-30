@@ -397,6 +397,8 @@
                                 </li>
                             </ul>
                         </li>
+
+
                     </ul>
                 </li>
                 <li id="menu-item-3105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
@@ -404,7 +406,7 @@
                 <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
                             href="http://themes.themegoods.com/grandtour/demo2/about/">About</a></li>
                 <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                    <a href="http://themes.themegoods.com/grandtour/demo2/contact/">контакты</a></li>
+                    <a href="http://themes.themegoods.com/grandtour/demo2/contact/">Контакты</a></li>
                 @if(auth()->check())
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
                         <a href="{{ action('TourController@create',$tour->id) }}">Edit Tour</a></li>
@@ -494,7 +496,7 @@
                                                 <a href="javascript:scrollTo('destination')">Место назначения</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                <a href="javascript:scrollTo('footer')">контакты</a>
+                                                <a href="javascript:scrollTo('footer')">Контакты</a>
                                             </li>
                                             @if(auth()->check())
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
