@@ -12,7 +12,7 @@ class Tour extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'img', 'description', 'age', 'availability', 'price', 'departure', 'departure_time', 'return_time', 'included', 'not_included','category_id','video_link'
+        'name', 'img', 'description', 'age', 'availability', 'price', 'departure', 'departure_time', 'return_time', 'included', 'not_included','category_id','video_link','calendar'
     ];
 
     public function days(){

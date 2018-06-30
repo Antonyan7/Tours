@@ -315,7 +315,7 @@
             <ul id="mobile_main_menu" class="mobile_main_nav">
                 <li id="menu-item-4"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4"><a
-                            href="/">Home</a></li>
+                            href="/">Главная</a></li>
                 <li id="menu-item-6"
                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-6">
                     <a href="#">Booking</a>
@@ -404,7 +404,7 @@
                 <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
                             href="http://themes.themegoods.com/grandtour/demo2/about/">About</a></li>
                 <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                    <a href="http://themes.themegoods.com/grandtour/demo2/contact/">Contact</a></li>
+                    <a href="http://themes.themegoods.com/grandtour/demo2/contact/">контакты</a></li>
                 @if(auth()->check())
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
                         <a href="{{ action('TourController@create',$tour->id) }}">Edit Tour</a></li>
@@ -486,15 +486,15 @@
                                     <div class="menu-main-menu-container">
                                         <ul id="main_menu" class="nav">
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
-                                                <a href="/">Home</a></li>
+                                                <a href="/">Главная</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
-                                                <a href="javascript:scrollTo('sim_tours')">Similar Tours</a>
+                                                <a href="javascript:scrollTo('sim_tours')">Похожие туры</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571">
-                                                <a href="javascript:scrollTo('destination')">Destination</a>
+                                                <a href="javascript:scrollTo('destination')">Место назначения</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                <a href="javascript:scrollTo('footer')">Contact</a>
+                                                <a href="javascript:scrollTo('footer')">контакты</a>
                                             </li>
                                             @if(auth()->check())
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4">
@@ -526,11 +526,10 @@
                     <div class="page_title_small_content">
                         <h1>{{ $tour->name }}</h1>
                         <br class="clear"/>
-                        <a href="javascript:;" id="single_tour_book_open" class="button" data-type="inline">Book This
-                            Tour</a>
+                        <a href="javascript:;" id="single_tour_book_open" class="button" data-type="inline">Забронировать тур</a>
 
                         <a href="#video_review180" id="single_tour_video_preview_open" class="button"
-                           data-type="inline"><span class="ti-control-play"></span>Video Preview</a>
+                           data-type="inline"><span class="ti-control-play"></span>Видео обзор</a>
 
                         <div id="video_review180" class="tour_video_preview_wrapper" style="display:none;">
                             {{--<iframe width="1280" height="720" src="{{$tour->video_link}}"--}}
@@ -558,28 +557,28 @@
                         <div class="one_fifth">
                             <div class="tour_attribute_icon ti-time"></div>
                             <div class="tour_attribute_content">
-                                {{count($tour->days)}} days
+                                {{ count($tour->days) }} {{ count($tour->days) < 5 ? count($tour->days) == 1 ?'день' : 'дня' : 'дней' }}
                             </div>
                         </div>
 
                         <div class="one_fifth">
                             <div class="tour_attribute_icon ti-id-badge"></div>
                             <div class="tour_attribute_content">
-                                Age {{$tour->age}} +
+                                Возраст {{$tour->age}} +
                             </div>
                         </div>
 
                         <div class="one_fifth">
                             <div class="tour_attribute_icon ti-calendar"></div>
                             <div class="tour_attribute_content">
-Whole Time With You
+                                {{$tour->calendar}}
                             </div>
                         </div>
 
                         <div class="one_fifth">
                             <div class="tour_attribute_icon ti-user"></div>
                             <div class="tour_attribute_content">
-                                Availability {{$tour->availability}} </div>
+                                Доступность {{$tour->availability}} </div>
                         </div>
 
                         <div class="one_fifth last" style="position:relative;">
@@ -609,30 +608,30 @@ Whole Time With You
                     <br class="clear"/>
                     <div class="single_tour_after_content_wrapper">
                         <a href="javascript:;" id="single_tour_book_after_content_open" class="button"
-                           data-type="inline">Book This Tour</a>
+                           data-type="inline">Забронировать тур</a>
                         <a id="single_tour_share_button" href="javascript:;" class="button ghost themeborder"><span
                                     class="ti-email"></span>Share this tour</a>
                     </div>
 
                     <ul class="single_tour_departure_wrapper themeborder">
                         <li>
-                            <div class="single_tour_departure_title">Departure</div>
+                            <div class="single_tour_departure_title">выезд</div>
                             <div class="single_tour_departure_content">{{ $tour->departure }}</div>
                         </li>
 
                         <li>
-                            <div class="single_tour_departure_title">Departure Time</div>
+                            <div class="single_tour_departure_title">Время отправления</div>
                             <div class="single_tour_departure_content">{{ $tour->departure_time }}
                             </div>
                         </li>
 
                         <li>
-                            <div class="single_tour_departure_title">Return Time</div>
+                            <div class="single_tour_departure_title">Время возврата</div>
                             <div class="single_tour_departure_content">{{ $tour->return_time }}</div>
                         </li>
 
                         <li>
-                            <div class="single_tour_departure_title">Included</div>
+                            <div class="single_tour_departure_title">включены</div>
                             <div class="single_tour_departure_content">
                                 <div class="one_half ">
                                     <span class="ti-check"></span>{{ $tour->included }}
@@ -641,7 +640,7 @@ Whole Time With You
                         </li>
 
                         <li>
-                            <div class="single_tour_departure_title">Not Included</div>
+                            <div class="single_tour_departure_title">Не включено</div>
                             <div class="single_tour_departure_content">
                                 <div class="one_half">
                                     <span class="ti-close"></span>{{ $tour->not_included }}
@@ -666,7 +665,7 @@ Whole Time With You
 
         <br class="clear"/>
         <div class="tour_related" id="sim_tours">
-            <h3 class="sub_title">Similar Tours</h3>
+            <h3 class="sub_title" style="{{$randomTours->first() ? '' : 'display: none;'}}">Похожие туры</h3>
             <div id="portfolio_filter_wrapper"
                  class="gallery classic four_cols portfolio-content section content clearfix" data-columns="4">
                 @foreach($randomTours as $tour)
@@ -710,7 +709,7 @@ Whole Time With You
 
                                     <div class="tour_attribute_days">
                                         <span class="ti-time"></span>
-                                        {{ count($tour->days) }}&nbsp;days
+                                        {{ count($tour->days) }} {{ count($tour->days) < 5 ? count($tour->days) == 1 ?'день' : 'дня' : 'дней' }}
                                     </div>
                                 </div>
                                 <br class="clear"/>
@@ -799,7 +798,7 @@ Whole Time With You
         <div class="menu-main-menu-container">
             <ul id="footer_menu" class="footer_nav">
                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4"><a
-                            href="/">Home</a></li>
+                            href="/">Главная</a></li>
                 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-6">
                     <a href="#">Booking</a>
                     <ul class="sub-menu">
@@ -868,12 +867,12 @@ Whole Time With You
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105"><a
                             href="/">Tours</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a
-                            href="/">Destination</a>
+                            href="/">Место назначения</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
                             href="/">About</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581"><a
-                            href="/">Contact</a></li>
+                            href="/">контакты</a></li>
             </ul>
         </div>
         <div id="copyright">\A9 Copyright Grand Tour Theme Demo - Theme by ThemeGoods</div>
@@ -890,7 +889,7 @@ Whole Time With You
         <div class="fullscreen_share_content">
             <h2>Share</h2>
 
-            <div class="page_tagline">{{ $tour->name }}French Autumn</div>
+            <div class="page_tagline">{{ $tour->name }}</div>
             <div id="social_share_wrapper">
                 <ul>
                     <li><a class="facebook" title="Share On Facebook" target="_blank"
@@ -916,10 +915,10 @@ Whole Time With You
         <div class="fullscreen_tour_content">
             <div class="single_tour_book_card_wrapper">
                 <div class="single_tour_book_card_content themeborder">
-                    <h2>French Autumn</h2>
+                    <h2>{{ $tour->name }}</h2>
                     <div class="single_tour_price ">
-                        <span>Start from</span>
-                        $5,000
+                        <span>цены от</span>
+                        {{$tour->price}}
                     </div>
 
                     <div class="single_tour_booking_wrapper contact_form7">
@@ -935,7 +934,7 @@ Whole Time With You
                                     <input type="hidden" name="_wpcf7_container_post" value="0"/>
                                     <input type="hidden" name="_wpcf7_nonce" value="48d228d052"/>
                                 </div>
-                                <p><label> Full Name<br/>
+                                <p><label> Полное имя<br/>
                                         <span class="wpcf7-form-control-wrap your-name"><input type="text"
                                                                                                name="your-name" value=""
                                                                                                size="40"
@@ -944,7 +943,7 @@ Whole Time With You
                                                                                                aria-invalid="false"
                                                                                                placeholder="John Doe"/></span>
                                     </label></p>
-                                <p><label> Email Address<br/>
+                                <p><label> Адрес электронной почты<br/>
                                         <span class="wpcf7-form-control-wrap your-email"><input type="email"
                                                                                                 name="your-email"
                                                                                                 value="" size="40"
@@ -953,7 +952,7 @@ Whole Time With You
                                                                                                 aria-invalid="false"
                                                                                                 placeholder="sample@yourcompany.com"/></span>
                                     </label></p>
-                                <p><label> Phone Number<br/>
+                                <p><label> Номер телефона<br/>
                                         <span class="wpcf7-form-control-wrap tel-729"><input type="tel" name="tel-729"
                                                                                              value="" size="40"
                                                                                              class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
@@ -961,7 +960,7 @@ Whole Time With You
                                                                                              aria-invalid="false"
                                                                                              placeholder="+66-4353434"/></span>
                                     </label></p>
-                                <p><label> Tour Date<br/>
+                                <p><label> Дата тура<br/>
                                         <span class="wpcf7-form-control-wrap menu-419"><select name="menu-419"
                                                                                                class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
                                                                                                aria-required="true"
@@ -971,7 +970,7 @@ Whole Time With You
                                                         value="7-15 February 2017">7-15 February 2017</option><option
                                                         value="18-26 February 2017">18-26 February 2017</option></select></span>
                                     </label></p>
-                                <p><label> Number of Person<br/>
+                                <p><label> Количество человек<br/>
                                         <span class="wpcf7-form-control-wrap text-237"><input type="text"
                                                                                               name="text-237" value=""
                                                                                               size="40"
@@ -991,15 +990,12 @@ Whole Time With You
                                                                                                   class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden"
                                                                                                   aria-invalid="false"/></span>
                                 </p>
-                                <p><input type="submit" value="Book This Tour" class="wpcf7-form-control wpcf7-submit"/>
+                                <p><input type="submit" value="Забронировать тур" class="wpcf7-form-control wpcf7-submit"/>
                                 </p>
                                 <div class="wpcf7-response-output wpcf7-display-none"></div>
                             </form>
                         </div>
                         <div class="single_tour_view_wrapper themeborder">
-                            <div class="single_tour_view_desc">
-                                This tour&#039;s been viewed&nbsp;544&nbsp;times in the past week
-                            </div>
 
                             <div class="single_tour_view_icon ti-alarm-clock"></div>
                         </div>
@@ -1440,9 +1436,9 @@ Whole Time With You
             behavior: 'smooth'
         });
 
-        document.querySelector('.hello').scrollIntoView({
-            behavior: 'smooth'
-        });
+        // document.querySelector('.hello').scrollIntoView({
+        //     behavior: 'smooth'
+        // });
     }
 </script>
 </body>

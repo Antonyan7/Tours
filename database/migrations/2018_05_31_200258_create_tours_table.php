@@ -28,6 +28,7 @@ class CreateToursTable extends Migration
             $table->text('not_included')->nullable();
             $table->integer('category_id')->nullable();
             $table->text('video_link')->nullable();
+            $table->text('calendar')->nullable();
             $table->timestamps();
         });
     }

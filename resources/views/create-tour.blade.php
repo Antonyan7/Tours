@@ -88,6 +88,11 @@
             <input type="text" class="form-control" id="not_included" placeholder="Not included" name="video_link"
                    value="@isset($tour->video_link) {{$tour->viseo_link}} @endisset">
         </div>
+        <div class="form-group col-md-4">
+            <label for="calendar">Calendar</label>
+            <input type="text" class="form-control" id="calendar" placeholder="Calendar" name="calendar"
+                   value="@isset($tour->calendari_logoyi_taki_text) {{$tour->calendari_logoyi_taki_text}} @endisset">
+        </div>
     </div>
 
 

@@ -261,7 +261,7 @@
             <ul id="mobile_main_menu" class="mobile_main_nav">
                 <li id="menu-item-4"
                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4">
-                    <a href="/">Home</a></li>
+                    <a href="/">Главная</a></li>
                 <li id="menu-item-6"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6">
                     <a href="#">Booking</a>
@@ -338,14 +338,14 @@
                     </ul>
                 </li>
                 <li id="menu-item-3105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
-                    <a href="tours/index.html">Tours</a></li>
+                    <a href="tours/index.html">Туры</a></li>
                 <li id="menu-item-3571"
                     class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a href="">Destination</a>
                 </li>
                 <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
-                            href="about/index.html">About</a></li>
+                            href="about/index.html">о нас</a></li>
                 <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                    <a href="contact/index.html">Contact</a></li>
+                    <a href="contact/index.html">контакты</a></li>
                 @if(auth()->check())
                     <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
                         <a href="{{ action('TourController@create')  }}">Create Tour</a></li>
@@ -426,13 +426,13 @@
                                     <div class="menu-main-menu-container">
                                         <ul id="main_menu" class="nav">
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4">
-                                                <a href="/">Home</a></li>
+                                                <a href="/">Главная</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
-                                                <a href="javascript:scrollTo('tours')">Tours</a></li>
+                                                <a href="javascript:scrollTo('tours')">Туры</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10">
-                                                <a href="javascript:scrollTo('about')">About</a></li>
+                                                <a href="javascript:scrollTo('about')">о нас</a></li>
                                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                    <a href="javascript:scrollTo('footer')">Contact</a></li>
+                                                    <a href="javascript:scrollTo('footer')">контакты</a></li>
                                             @if(auth()->check())
                                                 <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
                                                     <a href="{{ action('TourController@create')  }}">Create Tour</a></li>
@@ -684,7 +684,7 @@
                         if (tpj("#rev_slider_1_1").revolution == undefined) {
                             revslider_showDoubleJqueryError("#rev_slider_1_1");
                         } else {
-                            revapi1 = tpj("#rev_slider_1_1").show().revolution({
+                            /*revapi1 = tpj("#rev_slider_1_1").show().revolution({
                                 sliderType: "standard",
                                 jsFileLocation: "tour/themes.themegoods.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/",
                                 sliderLayout: "auto",
@@ -744,7 +744,7 @@
                                     nextSlideOnWindowFocus: "off",
                                     disableFocusListener: false,
                                 }
-                            });
+                            });*/
                         }
 
                     });
@@ -900,7 +900,7 @@
                                             <div class="tour_attribute_rating_count">4&nbsp;reviews</div>
                                         </div>
                                         <div class="tour_attribute_days">
-                                            <span class="ti-time"></span>{{ count($tour->days) }}&nbsp;days
+                                            <span class="ti-time"></span>{{ count($tour->days) }} {{ count($tour->days) == 1 ? 'день' : 'дней' }}
                                         </div>
                                     </div>
                                     <br class="clear"/>
@@ -1476,9 +1476,9 @@
             behavior: 'smooth'
         });
 
-        document.querySelector('.hello').scrollIntoView({
-            behavior: 'smooth'
-        });
+        // document.querySelector('.hello').scrollIntoView({
+        //     behavior: 'smooth'
+        // });
     }
 </script>
 </body>
