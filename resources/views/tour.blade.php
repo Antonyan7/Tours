@@ -796,91 +796,91 @@
 
 <div class="footer_bar   ">
 
-    <div class="footer_bar_wrapper ">
-        <div class="menu-main-menu-container">
-            <ul id="footer_menu" class="footer_nav">
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4"><a
-                            href="/">Главная</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-6">
-                    <a href="#">Booking</a>
-                    <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3537">
-                            <a href="#">Online Payment for Booking</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3536"><a
-                                            href="/">Variable
-                                        Tour Pricing</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3539"><a
-                                            href="/">Simple
-                                        Tour Pricing</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3541">
-                            <a href="#">Custom Booking Form</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3542"><a
-                                            href="/">Booking
-                                        Form + Sub Tour Date</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3544"><a
-                                            href="/">Booking
-                                        Form + Custom Date</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3545">
-                            <a href="#">Tour Durations</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3547"><a
-                                            href="/">Single
-                                        Day Tour</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3548"><a
-                                            href="/">Multiple
-                                        Days Tour</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3549"><a
-                                    href="/">Custom
-                                Booking URL for Affiliate Tour</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3556"><a
-                                    href="/">Custom Booking
-                                using custom HTML and plugin</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3550">
-                            <a href="#">Header Options</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour current-menu-item menu-item-3551">
-                                    <a href="/">Standard Background Header</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3552"><a
-                                            href="/">Video
-                                        Background Header</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3553">
-                            <a href="#">Layout Options</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3554"><a
-                                            href="/">With
-                                        Sidebar</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3555"><a
-                                            href="/">Fullwidth</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105"><a
-                            href="/">Tours</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a
-                            href="/">Место назначения</a>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
-                            href="/">About</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581"><a
-                            href="/">контакты</a></li>
-            </ul>
-        </div>
-        <div id="copyright">\A9 Copyright Grand Tour Theme Demo - Theme by ThemeGoods</div>
-        <br class="clear"/>
-        <a id="toTop" href="javascript:;"><i class="fa fa-angle-up"></i></a>
-    </div>
+    {{--<div class="footer_bar_wrapper ">--}}
+        {{--<div class="menu-main-menu-container">--}}
+            {{--<ul id="footer_menu" class="footer_nav">--}}
+                {{--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4"><a--}}
+                            {{--href="/">Главная</a></li>--}}
+                {{--<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-6">--}}
+                    {{--<a href="#">Booking</a>--}}
+                    {{--<ul class="sub-menu">--}}
+                        {{--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3537">--}}
+                            {{--<a href="#">Online Payment for Booking</a>--}}
+                            {{--<ul class="sub-menu">--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3536"><a--}}
+                                            {{--href="/">Variable--}}
+                                        {{--Tour Pricing</a></li>--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3539"><a--}}
+                                            {{--href="/">Simple--}}
+                                        {{--Tour Pricing</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3541">--}}
+                            {{--<a href="#">Custom Booking Form</a>--}}
+                            {{--<ul class="sub-menu">--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3542"><a--}}
+                                            {{--href="/">Booking--}}
+                                        {{--Form + Sub Tour Date</a></li>--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3544"><a--}}
+                                            {{--href="/">Booking--}}
+                                        {{--Form + Custom Date</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3545">--}}
+                            {{--<a href="#">Tour Durations</a>--}}
+                            {{--<ul class="sub-menu">--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3547"><a--}}
+                                            {{--href="/">Single--}}
+                                        {{--Day Tour</a></li>--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3548"><a--}}
+                                            {{--href="/">Multiple--}}
+                                        {{--Days Tour</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3549"><a--}}
+                                    {{--href="/">Custom--}}
+                                {{--Booking URL for Affiliate Tour</a></li>--}}
+                        {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3556"><a--}}
+                                    {{--href="/">Custom Booking--}}
+                                {{--using custom HTML and plugin</a></li>--}}
+                        {{--<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3550">--}}
+                            {{--<a href="#">Header Options</a>--}}
+                            {{--<ul class="sub-menu">--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour current-menu-item menu-item-3551">--}}
+                                    {{--<a href="/">Standard Background Header</a></li>--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3552"><a--}}
+                                            {{--href="/">Video--}}
+                                        {{--Background Header</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                        {{--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3553">--}}
+                            {{--<a href="#">Layout Options</a>--}}
+                            {{--<ul class="sub-menu">--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3554"><a--}}
+                                            {{--href="/">With--}}
+                                        {{--Sidebar</a></li>--}}
+                                {{--<li class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3555"><a--}}
+                                            {{--href="/">Fullwidth</a>--}}
+                                {{--</li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                    {{--</ul>--}}
+                {{--</li>--}}
+                {{--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105"><a--}}
+                            {{--href="/">Tours</a></li>--}}
+                {{--<li class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a--}}
+                            {{--href="/">Место назначения11</a>--}}
+                {{--</li>--}}
+                {{--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a--}}
+                            {{--href="/">About</a></li>--}}
+                {{--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581"><a--}}
+                            {{--href="/">контакты</a></li>--}}
+            {{--</ul>--}}
+        {{--</div>--}}
+        {{--<div id="copyright">\A9 Copyright Grand Tour Theme Demo - Theme by ThemeGoods</div>--}}
+        {{--<br class="clear"/>--}}
+        {{--<a id="toTop" href="javascript:;"><i class="fa fa-angle-up"></i></a>--}}
+    {{--</div>--}}
 </div>
 </div>
 
