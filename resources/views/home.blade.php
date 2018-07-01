@@ -101,112 +101,112 @@
     </style>
 
     <link rel='stylesheet' id='booked-icons-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/icons.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/icons.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-tooltipster-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-tooltipster-theme-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-animations-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/animations.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/animations.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-styles-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/styles.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/styles.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='booked-responsive-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/responsive.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/css/responsive.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='contact-form-7-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/contact-form-7/includes/css/styles.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/contact-form-7/includes/css/styles.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='fontawesome-stars-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/grandtour-custom-post/css/fontawesome-stars-o.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/grandtour-custom-post/css/fontawesome-stars-o.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='dashicons-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/css/dashicons.min.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/css/dashicons.min.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='post-views-counter-frontend-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/post-views-counter/css/frontend.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/post-views-counter/css/frontend.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='rs-plugin-settings-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/css/settings.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/css/settings.css')}}"
           type='text/css' media='all'/>
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {
         }
     </style>
     <link rel='stylesheet' id='woocommerce-layout-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='woocommerce-smallscreen-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css')}}"
           type='text/css' media='only screen and (max-width: 768px)'/>
     <link rel='stylesheet' id='woocommerce-general-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/css/woocommerce.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-reset-css-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/reset.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/reset.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-wordpress-css-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/wordpress.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/wordpress.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-animation-css-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/animation.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/animation.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='ilightbox-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/ilightbox/ilightbox.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/ilightbox/ilightbox.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-jqueryui-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/jqueryui/custom.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/jqueryui/custom.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='mediaelement-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/mediaelement/mediaelementplayer.min.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/mediaelement/mediaelementplayer.min.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='flexslider-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/flexslider/flexslider.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/flexslider/flexslider.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='tooltipster-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/tooltipster.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/tooltipster.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='odometer-theme-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/odometer-theme-minimal.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/odometer-theme-minimal.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-screen-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/screen.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/screen.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-leftalignmenu-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/menus/leftalignmenu.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/menus/leftalignmenu.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='fontawesome-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/font-awesome.min.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/font-awesome.min.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='themify-icons-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/themify-icons.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/themify-icons.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-script-custom-css-css'
-          href='tour/tour/grandtour/demo2/wp-admin/admin-ajaxf192.css?action=grandtour_custom_css'
+          href="{{asset('tour/tour/grandtour/demo2/wp-admin/admin-ajaxf192.css?action=grandtour_custom_css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='kirki-styles-global-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/modules/kirki/assets/css/kirki-styles.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/modules/kirki/assets/css/kirki-styles.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='grandtour-script-responsive-css-css'
-          href='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/grid.css'
+          href="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/css/grid.css')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='kirki_google_fonts-css'
           href='https://fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700%7CNothing+You+Could+Do%3Aregular&amp;subset'
           type='text/css' media='all'/>
     <script type='text/javascript'
-            src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/jquery.js'></script>
+            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/jquery.js')}}"></script>
     <script type='text/javascript'
-            src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/jquery-migrate.min.js')}}"></script>
     <script type='text/javascript'
-            src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/grandtour-custom-post/js/jquery.barrating.js'></script>
+            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/grandtour-custom-post/js/jquery.barrating.js')}}"></script>
     <script type='text/javascript'
-            src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js')}}"></script>
     <script type='text/javascript'
-            src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js')}}"></script>
     <style type="text/css">.recentcomments a {
             display: inline !important;
             padding: 0 !important;
@@ -214,9 +214,9 @@
         }</style>
 
     <script type="text/javascript"
-            src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
+            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js')}}"></script>
     <script type="text/javascript"
-            src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
+            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js')}}"></script>
     <script type="text/javascript">function setREVStartSize(e) {
             try {
                 var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
@@ -257,133 +257,133 @@
     <div class="mobile_menu_content">
 
 
-        <div class="menu-main-menu-container">
-            <ul id="mobile_main_menu" class="mobile_main_nav">
-                <li id="menu-item-4"
-                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4">
-                    <a href="/">Главная</a></li>
-                <li id="menu-item-6"
-                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6">
-                    <a href="#">Booking</a>
-                    <ul class="sub-menu">
-                        <li id="menu-item-3537"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3537">
-                            <a href="#">Online Payment for Booking</a>
-                            <ul class="sub-menu">
-                                <li id="menu-item-3536"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3536"><a
-                                            href="tour/grand-switzerland/index.html">Variable Tour Pricing</a></li>
-                                <li id="menu-item-3539"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3539"><a
-                                            href="tour/swiss-alps-trip/index.html">Simple Tour Pricing</a></li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-3541"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3541">
-                            <a href="#">Custom Booking Form</a>
-                            <ul class="sub-menu">
-                                <li id="menu-item-3542"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3542"><a
-                                            href="tour/the-new-california/index.html">Booking Form + Sub Tour Date</a>
-                                </li>
-                                <li id="menu-item-3544"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3544"><a
-                                            href="tour/niko-trip/index.html">Booking Form + Custom Date</a></li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-3545"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3545">
-                            <a href="#">Tour Durations</a>
-                            <ul class="sub-menu">
-                                <li id="menu-item-3547"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3547"><a
-                                            href="tour/hong-kong/index.html">Single Day Tour</a></li>
-                                <li id="menu-item-3548"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3548"><a
-                                            href="tour/seoul-your-soul/index.html">Multiple Days Tour</a></li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-3549"
-                            class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3549"><a
-                                    href="tour/5-lake-of-fuji-san/index.html">Custom Booking URL for Affiliate Tour</a>
-                        </li>
-                        <li id="menu-item-3556"
-                            class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3556"><a
-                                    href="tour/hong-kong/index.html">Custom Booking using custom HTML and plugin</a>
-                        </li>
-                        <li id="menu-item-3550"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3550">
-                            <a href="#">Header Options</a>
-                            <ul class="sub-menu">
-                                <li id="menu-item-3551"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3551"><a
-                                            href="tour/french-autumn/index.html">Standard Background Header</a></li>
-                                <li id="menu-item-3552"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3552"><a
-                                            href="tour/great-britain-travel/index.html">Video Background Header</a></li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-3553"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3553">
-                            <a href="#">Layout Options</a>
-                            <ul class="sub-menu">
-                                <li id="menu-item-3554"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3554"><a
-                                            href="tour/colorful-singapore/index.html">With Sidebar</a></li>
-                                <li id="menu-item-3555"
-                                    class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3555"><a
-                                            href="tour/exclusive-prague-trip/index.html">Fullwidth</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li id="menu-item-3105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
-                    <a href="tours/index.html">Туры</a></li>
-                <li id="menu-item-3571"
-                    class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a href="">Destination</a>
-                </li>
-                <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a
-                            href="about/index.html">О нас</a></li>
-                <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                    <a href="contact/index.html">Контакты</a></li>
-                @if(auth()->check())
-                    <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                        <a href="{{ action('TourController@create')  }}">Create Tour</a></li>
-                    <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                        <a href="{{ action('CategoriesController@createCategory')  }}">Create Category</a></li>
-                @endif
-            </ul>
-        </div>
-        <!-- Begin side menu sidebar -->
-        <div class="page_content_wrapper">
-            <div class="sidebar_wrapper">
-                <div class="sidebar">
+    {{--<div class="menu-main-menu-container">--}}
+    {{--<ul id="mobile_main_menu" class="mobile_main_nav">--}}
+    {{--<li id="menu-item-4"--}}
+    {{--class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4">--}}
+    {{--<a href="/">Главная</a></li>--}}
+    {{--<li id="menu-item-6"--}}
+    {{--class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6">--}}
+    {{--<a href="#">Booking</a>--}}
+    {{--<ul class="sub-menu">--}}
+    {{--<li id="menu-item-3537"--}}
+    {{--class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3537">--}}
+    {{--<a href="#">Online Payment for Booking</a>--}}
+    {{--<ul class="sub-menu">--}}
+    {{--<li id="menu-item-3536"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3536"><a--}}
+    {{--href="tour/grand-switzerland/index.html">Variable Tour Pricing</a></li>--}}
+    {{--<li id="menu-item-3539"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3539"><a--}}
+    {{--href="tour/swiss-alps-trip/index.html">Simple Tour Pricing</a></li>--}}
+    {{--</ul>--}}
+    {{--</li>--}}
+    {{--<li id="menu-item-3541"--}}
+    {{--class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3541">--}}
+    {{--<a href="#">Custom Booking Form</a>--}}
+    {{--<ul class="sub-menu">--}}
+    {{--<li id="menu-item-3542"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3542"><a--}}
+    {{--href="tour/the-new-california/index.html">Booking Form + Sub Tour Date</a>--}}
+    {{--</li>--}}
+    {{--<li id="menu-item-3544"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3544"><a--}}
+    {{--href="tour/niko-trip/index.html">Booking Form + Custom Date</a></li>--}}
+    {{--</ul>--}}
+    {{--</li>--}}
+    {{--<li id="menu-item-3545"--}}
+    {{--class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3545">--}}
+    {{--<a href="#">Tour Durations</a>--}}
+    {{--<ul class="sub-menu">--}}
+    {{--<li id="menu-item-3547"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3547"><a--}}
+    {{--href="tour/hong-kong/index.html">Single Day Tour</a></li>--}}
+    {{--<li id="menu-item-3548"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3548"><a--}}
+    {{--href="tour/seoul-your-soul/index.html">Multiple Days Tour</a></li>--}}
+    {{--</ul>--}}
+    {{--</li>--}}
+    {{--<li id="menu-item-3549"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3549"><a--}}
+    {{--href="tour/5-lake-of-fuji-san/index.html">Custom Booking URL for Affiliate Tour</a>--}}
+    {{--</li>--}}
+    {{--<li id="menu-item-3556"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3556"><a--}}
+    {{--href="tour/hong-kong/index.html">Custom Booking using custom HTML and plugin</a>--}}
+    {{--</li>--}}
+    {{--<li id="menu-item-3550"--}}
+    {{--class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3550">--}}
+    {{--<a href="#">Header Options</a>--}}
+    {{--<ul class="sub-menu">--}}
+    {{--<li id="menu-item-3551"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3551"><a--}}
+    {{--href="tour/french-autumn/index.html">Standard Background Header</a></li>--}}
+    {{--<li id="menu-item-3552"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3552"><a--}}
+    {{--href="tour/great-britain-travel/index.html">Video Background Header</a></li>--}}
+    {{--</ul>--}}
+    {{--</li>--}}
+    {{--<li id="menu-item-3553"--}}
+    {{--class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3553">--}}
+    {{--<a href="#">Layout Options</a>--}}
+    {{--<ul class="sub-menu">--}}
+    {{--<li id="menu-item-3554"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3554"><a--}}
+    {{--href="tour/colorful-singapore/index.html">With Sidebar</a></li>--}}
+    {{--<li id="menu-item-3555"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-tour menu-item-3555"><a--}}
+    {{--href="tour/exclusive-prague-trip/index.html">Fullwidth</a></li>--}}
+    {{--</ul>--}}
+    {{--</li>--}}
+    {{--</ul>--}}
+    {{--</li>--}}
+    {{--<li id="menu-item-3105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">--}}
+    {{--<a href="tours/index.html">Туры</a></li>--}}
+    {{--<li id="menu-item-3571"--}}
+    {{--class="menu-item menu-item-type-post_type menu-item-object-destination menu-item-3571"><a href="">Destination</a>--}}
+    {{--</li>--}}
+    {{--<li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a--}}
+    {{--href="about/index.html">О нас</a></li>--}}
+    {{--<li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">--}}
+    {{--<a href="contact/index.html">Контакты</a></li>--}}
+    {{--@if(auth()->check())--}}
+    {{--<li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">--}}
+    {{--<a href="{{ action('TourController@create')  }}">Create Tour</a></li>--}}
+    {{--<li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">--}}
+    {{--<a href="{{ action('CategoriesController@createCategory')  }}">Create Category</a></li>--}}
+    {{--@endif--}}
+    {{--</ul>--}}
+    {{--</div>--}}
+    <!-- Begin side menu sidebar -->
+    {{--<div class="page_content_wrapper">--}}
+    {{--<div class="sidebar_wrapper">--}}
+    {{--<div class="sidebar">--}}
 
-                    <div class="content">
+    {{--<div class="content">--}}
 
-                        <ul class="sidebar_widget">
-                        </ul>
+    {{--<ul class="sidebar_widget">--}}
+    {{--</ul>--}}
 
-                    </div>
+    {{--</div>--}}
 
-                </div>
-            </div>
-        </div>
-        <!-- End side menu sidebar -->
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    <!-- End side menu sidebar -->
 
-        <div class="social_wrapper">
-            <ul>
-                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook-official"></i></a></li>
-                <li class="twitter"><a target="_blank" href="http://twitter.com/#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li class="instagram"><a target="_blank" title="Instagram" href="http://instagram.com/#"><i
-                                class="fa fa-instagram"></i></a></li>
-                <li class="tripadvisor"><a target="_blank" title="Tripadvisor" href="#"><i
-                                class="fa fa-tripadvisor"></i></a></li>
+        {{--<div class="social_wrapper">--}}
+        {{--<ul>--}}
+        {{--<li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook-official"></i></a></li>--}}
+        {{--<li class="twitter"><a target="_blank" href="http://twitter.com/#"><i class="fa fa-twitter"></i></a>--}}
+        {{--</li>--}}
+        {{--<li class="instagram"><a target="_blank" title="Instagram" href="http://instagram.com/#"><i--}}
+        {{--class="fa fa-instagram"></i></a></li>--}}
+        {{--<li class="tripadvisor"><a target="_blank" title="Tripadvisor" href="#"><i--}}
+        {{--class="fa fa-tripadvisor"></i></a></li>--}}
 
-                <li class="yelp"><a target="_blank" title="Yelp" href="#"><i class="fa fa-yelp"></i></a></li>
-            </ul>
-        </div>
+        {{--<li class="yelp"><a target="_blank" title="Yelp" href="#"><i class="fa fa-yelp"></i></a></li>--}}
+        {{--</ul>--}}
+        {{--</div>--}}
     </div>
 </div>
 <!-- End mobile menu -->
@@ -402,7 +402,7 @@
                     <div id="logo_normal" class="logo_container">
                         <div class="logo_align">
                             <a id="custom_logo" class="logo_wrapper hidden" href="/">
-                                <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x.png"
+                                <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x.png')}}"
                                      alt="" width="92" height="22"/>
                             </a>
                         </div>
@@ -411,7 +411,7 @@
                     <div id="logo_transparent" class="logo_container">
                         <div class="logo_align">
                             <a id="custom_logo_transparent" class="logo_wrapper default" href="/">
-                                <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png"
+                                <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png')}}"
                                      alt="" width="92" height="22"/>
                             </a>
                         </div>
@@ -431,13 +431,17 @@
                                                 <a href="javascript:scrollTo('tours')">Туры</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10">
                                                 <a href="javascript:scrollTo('about')">о нас</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                    <a href="javascript:scrollTo('footer')">контакты</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                                                <a href="javascript:scrollTo('footer')">контакты</a></li>
                                             @if(auth()->check())
-                                                <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                    <a href="{{ action('TourController@create')  }}">Create Tour</a></li>
-                                                <li id="menu-item-3581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                    <a href="{{ action('CategoriesController@createCategory')  }}">Create Category</a></li>
+                                                <li id="menu-item-3581"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                                                    <a href="{{ action('TourController@create')  }}">Create Tour</a>
+                                                </li>
+                                                <li id="menu-item-3581"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                                                    <a href="{{ action('CategoriesController@createCategory')  }}">Create
+                                                        Category</a></li>
                                             @endif
                                         </ul>
                                     </div>
@@ -458,27 +462,27 @@
 
 
     <script type="text/javascript"
-            src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
+            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js')}}"></script>
     <script type="text/javascript"
-            src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
+            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js')}}"></script>
     <div class="ppb_wrapper  ">
         <div class="one fullwidth ">
             <link href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do:400%7CMontserrat:400"
                   rel="stylesheet" property="stylesheet" type="text/css" media="all">
             <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery"
-                 style="margin:0px auto;background:rgba(0,0,0,0);padding:0px;margin-top:0px;margin-bottom:0px;background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;">
+                 style="margin:0px auto;background:rgba(0,0,0,0);padding:0px;margin-top:0px;margin-bottom:0px;background-image:url({{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243.jpg')}});background-repeat:no-repeat;background-size:cover;background-position:center center;">
                 <!-- START REVOLUTION SLIDER 5.4.5.1 auto mode -->
                 <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" data-version="5.4.5.1">
                     <ul>    <!-- SLIDE  -->
                         <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                             data-hideslideonmobile="off" data-easein="default" data-easeout="default"
                             data-masterspeed="300"
-                            data-thumb="http://themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243-100x50.jpeg"
+                            {{--data-thumb="http://themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243-100x50.jpeg"--}}
                             data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                             data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243.jpg"
+                            <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-210243.jpg')}}"
                                  alt="" title="pexels-photo-210243" width="1440" height="960"
                                  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                  class="rev-slidebg" data-no-retina>
@@ -537,7 +541,7 @@
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                             data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-206359.jpg"
+                            <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-206359.jpg')}}"
                                  alt="" title="pexels-photo-206359" width="1440" height="960"
                                  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                  class="rev-slidebg" data-no-retina>
@@ -596,7 +600,7 @@
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                             data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-525544.jpg"
+                            <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-525544.jpg')}}"
                                  alt="" title="pexels-photo-525544" width="1440" height="960"
                                  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                  class="rev-slidebg" data-no-retina>
@@ -658,255 +662,259 @@
                         }
                     </script>
                     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-                </div>
-                <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
-                    var htmlDivCss = "";
-                    if (htmlDiv) {
-                        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-                    } else {
-                        var htmlDiv = document.createElement("div");
-                        htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-                        document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-                    }
-                </script>
-                <script type="text/javascript">
-                    setREVStartSize({
-                        c: jQuery('#rev_slider_1_1'),
-                        gridwidth: [1240],
-                        gridheight: [868],
-                        sliderLayout: 'auto'
-                    });
-
-                    var revapi1,
-                        tpj = jQuery;
-
-                    tpj(document).ready(function () {
-                        if (tpj("#rev_slider_1_1").revolution == undefined) {
-                            revslider_showDoubleJqueryError("#rev_slider_1_1");
+                    <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
+                        var htmlDivCss = "";
+                        if (htmlDiv) {
+                            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
                         } else {
-                            /*revapi1 = tpj("#rev_slider_1_1").show().revolution({
-                                sliderType: "standard",
-                                jsFileLocation: "tour/themes.themegoods.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/",
-                                sliderLayout: "auto",
-                                dottedOverlay: "none",
-                                delay: 4000,
-                                navigation: {
-                                    keyboardNavigation: "off",
-                                    keyboard_direction: "horizontal",
-                                    mouseScrollNavigation: "off",
-                                    mouseScrollReverse: "default",
-                                    onHoverStop: "off",
-                                    arrows: {
-                                        style: "zeus",
-                                        enable: true,
-                                        hide_onmobile: false,
-                                        hide_onleave: true,
-                                        hide_delay: 200,
-                                        hide_delay_mobile: 1200,
-                                        tmp: '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
-                                        left: {
-                                            h_align: "left",
-                                            v_align: "center",
-                                            h_offset: 20,
-                                            v_offset: 0
-                                        },
-                                        right: {
-                                            h_align: "right",
-                                            v_align: "center",
-                                            h_offset: 20,
-                                            v_offset: 0
-                                        }
-                                    }
-                                },
-                                visibilityLevels: [1240, 1024, 778, 480],
-                                gridwidth: 1240,
-                                gridheight: 868,
-                                lazyType: "none",
-                                scrolleffect: {
-                                    blur: "on",
-                                    on_slidebg: "on",
-                                },
-                                shadow: 0,
-                                spinner: "spinner2",
-                                stopLoop: "off",
-                                stopAfterLoops: -1,
-                                stopAtSlide: -1,
-                                shuffle: "off",
-                                autoHeight: "off",
-                                disableProgressBar: "on",
-                                hideThumbsOnMobile: "off",
-                                hideSliderAtLimit: 0,
-                                hideCaptionAtLimit: 0,
-                                hideAllCaptionAtLilmit: 0,
-                                debugMode: false,
-                                fallbacks: {
-                                    simplifyAll: "off",
-                                    nextSlideOnWindowFocus: "off",
-                                    disableFocusListener: false,
-                                }
-                            });*/
+                            var htmlDiv = document.createElement("div");
+                            htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+                            document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
                         }
+                    </script>
+                    <script type="text/javascript">
+                        setREVStartSize({
+                            c: jQuery('#rev_slider_1_1'),
+                            gridwidth: [1240],
+                            gridheight: [868],
+                            sliderLayout: 'auto'
+                        });
 
-                    });
-                    /*ready*/
-                </script>
-                <script>
-                    var htmlDivCss = ' #rev_slider_1_1_wrapper .tp-loader.spinner2{ background-color: #FFFFFF !important; } ';
-                    var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
-                    if (htmlDiv) {
-                        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-                    }
-                    else {
-                        var htmlDiv = document.createElement('div');
-                        htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
-                        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
-                    }
-                </script>
-                <script>
-                    var htmlDivCss = unescape("%23rev_slider_1_1%20.zeus.tparrows%20%7B%0A%20%20cursor%3Apointer%3B%0A%20%20min-width%3A70px%3B%0A%20%20min-height%3A70px%3B%0A%20%20position%3Aabsolute%3B%0A%20%20display%3Ablock%3B%0A%20%20z-index%3A100%3B%0A%20%20border-radius%3A50%25%3B%20%20%20%0A%20%20overflow%3Ahidden%3B%0A%20%20background%3Argba%280%2C0%2C0%2C0.1%29%3B%0A%7D%0A%0A%23rev_slider_1_1%20.zeus.tparrows%3Abefore%20%7B%0A%20%20font-family%3A%20%22revicons%22%3B%0A%20%20font-size%3A20px%3B%0A%20%20color%3Argb%28255%2C%20255%2C%20255%29%3B%0A%20%20display%3Ablock%3B%0A%20%20line-height%3A%2070px%3B%0A%20%20text-align%3A%20center%3B%20%20%20%20%0A%20%20z-index%3A2%3B%0A%20%20position%3Arelative%3B%0A%7D%0A%23rev_slider_1_1%20.zeus.tparrows.tp-leftarrow%3Abefore%20%7B%0A%20%20content%3A%20%22%5Ce824%22%3B%0A%7D%0A%23rev_slider_1_1%20.zeus.tparrows.tp-rightarrow%3Abefore%20%7B%0A%20%20content%3A%20%22%5Ce825%22%3B%0A%7D%0A%0A%23rev_slider_1_1%20.zeus%20.tp-title-wrap%20%7B%0A%20%20background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%20%20width%3A100%25%3B%0A%20%20height%3A100%25%3B%0A%20%20top%3A0px%3B%0A%20%20left%3A0px%3B%0A%20%20position%3Aabsolute%3B%0A%20%20opacity%3A0%3B%0A%20%20transform%3Ascale%280%29%3B%0A%20%20-webkit-transform%3Ascale%280%29%3B%0A%20%20%20transition%3A%20all%200.3s%3B%0A%20%20-webkit-transition%3Aall%200.3s%3B%0A%20%20-moz-transition%3Aall%200.3s%3B%0A%20%20%20border-radius%3A50%25%3B%0A%20%7D%0A%23rev_slider_1_1%20.zeus%20.tp-arr-imgholder%20%7B%0A%20%20width%3A100%25%3B%0A%20%20height%3A100%25%3B%0A%20%20position%3Aabsolute%3B%0A%20%20top%3A0px%3B%0A%20%20left%3A0px%3B%0A%20%20background-position%3Acenter%20center%3B%0A%20%20background-size%3Acover%3B%0A%20%20border-radius%3A50%25%3B%0A%20%20transform%3Atranslatex%28-100%25%29%3B%0A%20%20-webkit-transform%3Atranslatex%28-100%25%29%3B%0A%20%20%20transition%3A%20all%200.3s%3B%0A%20%20-webkit-transition%3Aall%200.3s%3B%0A%20%20-moz-transition%3Aall%200.3s%3B%0A%0A%20%7D%0A%23rev_slider_1_1%20.zeus.tp-rightarrow%20.tp-arr-imgholder%20%7B%0A%20%20%20%20transform%3Atranslatex%28100%25%29%3B%0A%20%20-webkit-transform%3Atranslatex%28100%25%29%3B%0A%20%20%20%20%20%20%7D%0A%23rev_slider_1_1%20.zeus.tparrows%3Ahover%20.tp-arr-imgholder%20%7B%0A%20%20transform%3Atranslatex%280%29%3B%0A%20%20-webkit-transform%3Atranslatex%280%29%3B%0A%20%20opacity%3A1%3B%0A%7D%0A%20%20%20%20%20%20%0A%23rev_slider_1_1%20.zeus.tparrows%3Ahover%20.tp-title-wrap%20%7B%0A%20%20transform%3Ascale%281%29%3B%0A%20%20-webkit-transform%3Ascale%281%29%3B%0A%20%20opacity%3A1%3B%0A%7D%0A%20%0A");
-                    var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
-                    if (htmlDiv) {
-                        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-                    }
-                    else {
-                        var htmlDiv = document.createElement('div');
-                        htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
-                        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
-                    }
-                </script>
-            </div><!-- END REVOLUTION SLIDER --></div>
-    </div>
-    <div class="ppb_destination_metro one nopadding " style="margin-top: 30px;">
-        <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
-            <div class="standard_wrapper">
-                <div id="1526815492888590595" class="portfolio_filter_wrapper gallery grid metro portrait four_cols"
-                     data-columns="4">
-                    @foreach($categories as $category)
-                        @if(($loop->index % 3  == 0 && floor(($loop->index)/3)%2 == 0) || (floor(($loop->index)/3)%2 == 1 && ($loop->index+1) % 3 == 0))
-                            <div class="element grid center classic4_cols double_size animated1">
-                                <div class="one_fourth gallery4 double_size grid static filterable portfolio_type themeborder"
-                                     style="background-image:url({{$category->img ? $category->categoryImg() : ''}});">
-                                    <div class="ppb_background_overlay light"></div>
-                                    <a class="tour_image" href="{{action('CategoriesController@category',$category->id)}}"></a>
-                                    <div class="portfolio_info_wrapper">
-                                        <div class="portfolio_info_content"><h3>{{$category->name}}</h3></div>
-                                    </div>
-                                </div>
-                            </div>
-                        @else
-                                <div class="element grid center classic4_cols animated2">
-                                    <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
+                        var revapi1,
+                            tpj = jQuery;
+
+                        tpj(document).ready(function () {
+                            if (tpj("#rev_slider_1_1").revolution == undefined) {
+                                revslider_showDoubleJqueryError("#rev_slider_1_1");
+                            } else {
+                                /*revapi1 = tpj("#rev_slider_1_1").show().revolution({
+                                    sliderType: "standard",
+                                    jsFileLocation: "tour/themes.themegoods.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/",
+                                    sliderLayout: "auto",
+                                    dottedOverlay: "none",
+                                    delay: 4000,
+                                    navigation: {
+                                        keyboardNavigation: "off",
+                                        keyboard_direction: "horizontal",
+                                        mouseScrollNavigation: "off",
+                                        mouseScrollReverse: "default",
+                                        onHoverStop: "off",
+                                        arrows: {
+                                            style: "zeus",
+                                            enable: true,
+                                            hide_onmobile: false,
+                                            hide_onleave: true,
+                                            hide_delay: 200,
+                                            hide_delay_mobile: 1200,
+                                            tmp: '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
+                                            left: {
+                                                h_align: "left",
+                                                v_align: "center",
+                                                h_offset: 20,
+                                                v_offset: 0
+                                            },
+                                            right: {
+                                                h_align: "right",
+                                                v_align: "center",
+                                                h_offset: 20,
+                                                v_offset: 0
+                                            }
+                                        }
+                                    },
+                                    visibilityLevels: [1240, 1024, 778, 480],
+                                    gridwidth: 1240,
+                                    gridheight: 868,
+                                    lazyType: "none",
+                                    scrolleffect: {
+                                        blur: "on",
+                                        on_slidebg: "on",
+                                    },
+                                    shadow: 0,
+                                    spinner: "spinner2",
+                                    stopLoop: "off",
+                                    stopAfterLoops: -1,
+                                    stopAtSlide: -1,
+                                    shuffle: "off",
+                                    autoHeight: "off",
+                                    disableProgressBar: "on",
+                                    hideThumbsOnMobile: "off",
+                                    hideSliderAtLimit: 0,
+                                    hideCaptionAtLimit: 0,
+                                    hideAllCaptionAtLilmit: 0,
+                                    debugMode: false,
+                                    fallbacks: {
+                                        simplifyAll: "off",
+                                        nextSlideOnWindowFocus: "off",
+                                        disableFocusListener: false,
+                                    }
+                                });*/
+                            }
+
+                        });
+                        /*ready*/
+                    </script>
+                    <script>
+                        var htmlDivCss = ' #rev_slider_1_1_wrapper .tp-loader.spinner2{ background-color: #FFFFFF !important; } ';
+                        var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+                        if (htmlDiv) {
+                            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                        }
+                        else {
+                            var htmlDiv = document.createElement('div');
+                            htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+                            document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+                        }
+                    </script>
+                    <script>
+                        var htmlDivCss = unescape("%23rev_slider_1_1%20.zeus.tparrows%20%7B%0A%20%20cursor%3Apointer%3B%0A%20%20min-width%3A70px%3B%0A%20%20min-height%3A70px%3B%0A%20%20position%3Aabsolute%3B%0A%20%20display%3Ablock%3B%0A%20%20z-index%3A100%3B%0A%20%20border-radius%3A50%25%3B%20%20%20%0A%20%20overflow%3Ahidden%3B%0A%20%20background%3Argba%280%2C0%2C0%2C0.1%29%3B%0A%7D%0A%0A%23rev_slider_1_1%20.zeus.tparrows%3Abefore%20%7B%0A%20%20font-family%3A%20%22revicons%22%3B%0A%20%20font-size%3A20px%3B%0A%20%20color%3Argb%28255%2C%20255%2C%20255%29%3B%0A%20%20display%3Ablock%3B%0A%20%20line-height%3A%2070px%3B%0A%20%20text-align%3A%20center%3B%20%20%20%20%0A%20%20z-index%3A2%3B%0A%20%20position%3Arelative%3B%0A%7D%0A%23rev_slider_1_1%20.zeus.tparrows.tp-leftarrow%3Abefore%20%7B%0A%20%20content%3A%20%22%5Ce824%22%3B%0A%7D%0A%23rev_slider_1_1%20.zeus.tparrows.tp-rightarrow%3Abefore%20%7B%0A%20%20content%3A%20%22%5Ce825%22%3B%0A%7D%0A%0A%23rev_slider_1_1%20.zeus%20.tp-title-wrap%20%7B%0A%20%20background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%20%20width%3A100%25%3B%0A%20%20height%3A100%25%3B%0A%20%20top%3A0px%3B%0A%20%20left%3A0px%3B%0A%20%20position%3Aabsolute%3B%0A%20%20opacity%3A0%3B%0A%20%20transform%3Ascale%280%29%3B%0A%20%20-webkit-transform%3Ascale%280%29%3B%0A%20%20%20transition%3A%20all%200.3s%3B%0A%20%20-webkit-transition%3Aall%200.3s%3B%0A%20%20-moz-transition%3Aall%200.3s%3B%0A%20%20%20border-radius%3A50%25%3B%0A%20%7D%0A%23rev_slider_1_1%20.zeus%20.tp-arr-imgholder%20%7B%0A%20%20width%3A100%25%3B%0A%20%20height%3A100%25%3B%0A%20%20position%3Aabsolute%3B%0A%20%20top%3A0px%3B%0A%20%20left%3A0px%3B%0A%20%20background-position%3Acenter%20center%3B%0A%20%20background-size%3Acover%3B%0A%20%20border-radius%3A50%25%3B%0A%20%20transform%3Atranslatex%28-100%25%29%3B%0A%20%20-webkit-transform%3Atranslatex%28-100%25%29%3B%0A%20%20%20transition%3A%20all%200.3s%3B%0A%20%20-webkit-transition%3Aall%200.3s%3B%0A%20%20-moz-transition%3Aall%200.3s%3B%0A%0A%20%7D%0A%23rev_slider_1_1%20.zeus.tp-rightarrow%20.tp-arr-imgholder%20%7B%0A%20%20%20%20transform%3Atranslatex%28100%25%29%3B%0A%20%20-webkit-transform%3Atranslatex%28100%25%29%3B%0A%20%20%20%20%20%20%7D%0A%23rev_slider_1_1%20.zeus.tparrows%3Ahover%20.tp-arr-imgholder%20%7B%0A%20%20transform%3Atranslatex%280%29%3B%0A%20%20-webkit-transform%3Atranslatex%280%29%3B%0A%20%20opacity%3A1%3B%0A%7D%0A%20%20%20%20%20%20%0A%23rev_slider_1_1%20.zeus.tparrows%3Ahover%20.tp-title-wrap%20%7B%0A%20%20transform%3Ascale%281%29%3B%0A%20%20-webkit-transform%3Ascale%281%29%3B%0A%20%20opacity%3A1%3B%0A%7D%0A%20%0A");
+                        var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+                        if (htmlDiv) {
+                            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                        }
+                        else {
+                            var htmlDiv = document.createElement('div');
+                            htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+                            document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+                        }
+                    </script>
+                </div><!-- END REVOLUTION SLIDER --></div>
+        </div>
+        <div class="ppb_destination_metro one nopadding " style="margin-top: 30px;">
+            <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
+                <div class="standard_wrapper">
+                    <div id="1526815492888590595" class="portfolio_filter_wrapper gallery grid metro portrait four_cols"
+                         data-columns="4">
+                        @foreach($categories as $category)
+                            @if(($loop->index % 3  == 0 && floor(($loop->index)/3)%2 == 0) || (floor(($loop->index)/3)%2 == 1 && ($loop->index+1) % 3 == 0))
+                                <div class="element grid center classic4_cols double_size animated1">
+                                    <div class="one_fourth gallery4 double_size grid static filterable portfolio_type themeborder"
                                          style="background-image:url({{$category->img ? $category->categoryImg() : ''}});">
                                         <div class="ppb_background_overlay light"></div>
-                                        <a class="tour_image" href="{{action('CategoriesController@category',$category->id)}}"></a>
+                                        <a class="tour_image"
+                                           href="{{action('CategoriesController@category',$category->id)}}"></a>
                                         <div class="portfolio_info_wrapper">
                                             <div class="portfolio_info_content"><h3>{{$category->name}}</h3></div>
                                         </div>
                                     </div>
                                 </div>
-                        @endif
-                    @endforeach
+                            @else
+                                <div class="element grid center classic4_cols animated2">
+                                    <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
+                                         style="background-image:url({{$category->img ? $category->categoryImg() : ''}});">
+                                        <div class="ppb_background_overlay light"></div>
+                                        <a class="tour_image"
+                                           href="{{action('CategoriesController@category',$category->id)}}"></a>
+                                        <div class="portfolio_info_wrapper">
+                                            <div class="portfolio_info_content"><h3>{{$category->name}}</h3></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endif
+                        @endforeach
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="ppb_tour_classic one nopadding " style="margin-top: 100px; margin-bottom:50px;" id="tours">
-        <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
-            <div class="standard_wrapper">
-                <div id="15268154921304978810" class="portfolio_filter_wrapper gallery classic four_cols" data-columns="4">
-    @foreach($tours as $tour)
+        <div class="ppb_tour_classic one nopadding " style="margin-top: 100px; margin-bottom:50px;" id="tours">
+            <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
+                <div class="standard_wrapper">
+                    <div id="15268154921304978810" class="portfolio_filter_wrapper gallery classic four_cols"
+                         data-columns="4">
+                        @foreach($tours as $tour)
 
-                        <div class="element grid classic4_cols animated1">
-                            <div class="one_fourth gallery4 classic static filterable portfolio_type themeborder"><a
-                                        class="tour_image" href="/tour-page/{{$tour->id}}">
-                                    <img src="@if($tour->img){{$tour->tourImage()}} @else tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg @endif"
-                                         alt="French Autumn" style="height: 198px; object-fit: cover; object-position: center;"/>
-                                    <div class="tour_price ">{{ $tour->price }}</div>
-                                </a>
-                                <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="/tour-page/{{$tour->id}}"><h4>{{ $tour->name }}</h4></a>
-                                    <div class="tour_excerpt"><p>{{ $tour->descritpion }}</p></div>
-                                    <div class="tour_attribute_wrapper">
-                                        <div class="tour_attribute_rating">
-                                            <div class="br-theme-fontawesome-stars-o">
-                                                <div class="br-widget"><a href="javascript:;" class="br-selected"></a><a
-                                                            href="javascript:;" class="br-selected"></a><a
-                                                            href="javascript:;" class="br-selected"></a><a
-                                                            href="javascript:;" class="br-selected"></a><a
-                                                            href="javascript:;"></a></div>
+                            <div class="element grid classic4_cols animated1">
+                                <div class="one_fourth gallery4 classic static filterable portfolio_type themeborder"><a
+                                            class="tour_image" href="/tour-page/{{$tour->id}}">
+                                        <img src="@if($tour->img){{$tour->tourImage()}} @else {{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg')}} @endif"
+                                             alt="French Autumn"
+                                             style="height: 198px; object-fit: cover; object-position: center;"/>
+                                        <div class="tour_price ">{{ $tour->price }}</div>
+                                    </a>
+                                    <div class="portfolio_info_wrapper">
+                                        <a class="tour_link" href="/tour-page/{{$tour->id}}"><h4>{{ $tour->name }}</h4>
+                                        </a>
+                                        <div class="tour_excerpt"><p>{{ $tour->descritpion }}</p></div>
+                                        <div class="tour_attribute_wrapper">
+                                            <div class="tour_attribute_rating">
+                                                <div class="br-theme-fontawesome-stars-o">
+                                                    <div class="br-widget"><a href="javascript:;"
+                                                                              class="br-selected"></a><a
+                                                                href="javascript:;" class="br-selected"></a><a
+                                                                href="javascript:;" class="br-selected"></a><a
+                                                                href="javascript:;" class="br-selected"></a><a
+                                                                href="javascript:;"></a></div>
+                                                </div>
+                                                <div class="tour_attribute_rating_count"></div>
                                             </div>
-                                            <div class="tour_attribute_rating_count"></div>
+                                            <div class="tour_attribute_days">
+                                                <span class="ti-time"></span>{{ count($tour->days) }} {{ count($tour->days) == 1 ? 'день' : 'дней' }}
+                                            </div>
                                         </div>
-                                        <div class="tour_attribute_days">
-                                            <span class="ti-time"></span>{{ count($tour->days) }} {{ count($tour->days) == 1 ? 'день' : 'дней' }}
-                                        </div>
+                                        <br class="clear"/>
                                     </div>
-                                    <br class="clear"/>
                                 </div>
                             </div>
-                        </div>
-    @endforeach
-                </div>
-            </div>
-        </div>
-    </div>
-        </div>
-    </div>
-    <div class="parallax "
-         style="background-image: url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-259522.jpg);height:50vh; "></div>
-    <div class="one withsmallpadding ppb_header " id="about"
-         style="padding-bottom: 0px !important;text-align:left;padding:60px 0 60px 0;">
-        <div class="standard_wrapper">
-            <div class="page_content_wrapper">
-                <div class="inner">
-                    <div style="margin:auto;width:100%"><h2 class="ppb_title" style="">Featured Testimonials</h2>
-                        <div class="page_tagline" style="">Discover your next experiences, and places.</div>
+                        @endforeach
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<div class="parallax "
+     style="background-image: url({{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-259522.jpg')}});height:50vh; "></div>
+<div class="one withsmallpadding ppb_header " id="about"
+     style="padding-bottom: 0px !important;text-align:left;padding:60px 0 60px 0;">
     <div class="standard_wrapper">
-        <div class="one withsmallpadding ppb_testimonial_column" style="padding-bottom: 10px !important;">
-            <div class="page_content_wrapper">
-                <div class="inner">
-                    <div class="testimonial_wrapper">
-                        <div class="one_third testimonial_column_element animated1 ">
-                            <div class="testimonial_content">"<em>Vivamus aliquet felis eu diam ultricies</em> congue.
-                                Morbi porta lorem nec consectetur porta. Sed quis dui elit. Pellentesque habitant morbi
-                                tristique senectus et netus et male Sed vestibulum orci"<br/><br/>
-                                <div class="testimonial_customer"><h6>Mark Anthony</h6>
-                                    <div class="testimonial_customer_position">CEO</div>
-                                    -
-                                    <div class="testimonial_customer_company"><a href="#" target="_blank">WikiMedia</a>
-                                    </div>
+        <div class="page_content_wrapper">
+            <div class="inner">
+                <div style="margin:auto;width:100%"><h2 class="ppb_title" style="">Featured Testimonials</h2>
+                    <div class="page_tagline" style="">Discover your next experiences, and places.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="standard_wrapper">
+    <div class="one withsmallpadding ppb_testimonial_column" style="padding-bottom: 10px !important;">
+        <div class="page_content_wrapper">
+            <div class="inner">
+                <div class="testimonial_wrapper">
+                    <div class="one_third testimonial_column_element animated1 ">
+                        <div class="testimonial_content">"<em>Vivamus aliquet felis eu diam ultricies</em> congue.
+                            Morbi porta lorem nec consectetur porta. Sed quis dui elit. Pellentesque habitant morbi
+                            tristique senectus et netus et male Sed vestibulum orci"<br/><br/>
+                            <div class="testimonial_customer"><h6>Mark Anthony</h6>
+                                <div class="testimonial_customer_position">CEO</div>
+                                -
+                                <div class="testimonial_customer_company"><a href="#" target="_blank">WikiMedia</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="one_third testimonial_column_element animated2 ">
-                            <div class="testimonial_content">"Pellentesque habitant morbi tristique senectus et netus et
-                                malesuada fames ac turpis egestas. <em>Sed vestibulum orci quam. Pellentesque</em>
-                                habitant morbi tristique senectus et netus et male."<br/><br/>
-                                <div class="testimonial_customer"><h6>Christina Hardy</h6>
-                                    <div class="testimonial_customer_position">Marketing Manager</div>
-                                    -
-                                    <div class="testimonial_customer_company"><a href="#" target="_blank">Red Inc.</a>
-                                    </div>
+                    </div>
+                    <div class="one_third testimonial_column_element animated2 ">
+                        <div class="testimonial_content">"Pellentesque habitant morbi tristique senectus et netus et
+                            malesuada fames ac turpis egestas. <em>Sed vestibulum orci quam. Pellentesque</em>
+                            habitant morbi tristique senectus et netus et male."<br/><br/>
+                            <div class="testimonial_customer"><h6>Christina Hardy</h6>
+                                <div class="testimonial_customer_position">Marketing Manager</div>
+                                -
+                                <div class="testimonial_customer_company"><a href="#" target="_blank">Red Inc.</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="one_third testimonial_column_element animated3 last">
-                            <div class="testimonial_content">"In enim justo, rhoncus ut, <em>imperdiet a, venenatis
-                                    vitae</em>, justo. Nullam dictum felis eu pede mollis pretium. Pellentesque habitant
-                                morbi tristique senectus et netus et male."<br/><br/>
-                                <div class="testimonial_customer"><h6>Jane Bennett</h6>
-                                    <div class="testimonial_customer_position">Developer</div>
-                                    -
-                                    <div class="testimonial_customer_company"><a href="#" target="_blank">Hubboard
-                                            Media</a></div>
-                                </div>
+                    </div>
+                    <div class="one_third testimonial_column_element animated3 last">
+                        <div class="testimonial_content">"In enim justo, rhoncus ut, <em>imperdiet a, venenatis
+                                vitae</em>, justo. Nullam dictum felis eu pede mollis pretium. Pellentesque habitant
+                            morbi tristique senectus et netus et male."<br/><br/>
+                            <div class="testimonial_customer"><h6>Jane Bennett</h6>
+                                <div class="testimonial_customer_position">Developer</div>
+                                -
+                                <div class="testimonial_customer_company"><a href="#" target="_blank">Hubboard
+                                        Media</a></div>
                             </div>
                         </div>
                     </div>
@@ -914,24 +922,25 @@
             </div>
         </div>
     </div>
-    <div class="one withsmallpadding ppb_text" style="text-align:center;padding:0px 0 0px 0;">
-        <div class="standard_wrapper">
-            <div class="page_content_wrapper">
-                <div class="inner">
-                    <div style="margin:auto;width:100%"><p><img class="aligncenter wp-image-3080 size-full"
-                                                                src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/awards.png"
-                                                                alt="" width="783" height="200"/></p>
-                        <h3>Speak to our expert at 1-800-453-6744</h3>
-                        <p><a class="button" href="tours/index.html" style="margin-top:10px;">Browse All Tours</a></p>
-                    </div>
+</div>
+<div class="one withsmallpadding ppb_text" style="text-align:center;padding:0px 0 0px 0;">
+    <div class="standard_wrapper">
+        <div class="page_content_wrapper">
+            <div class="inner">
+                <div style="margin:auto;width:100%"><p><img class="aligncenter wp-image-3080 size-full"
+                                                            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/awards.png')}}"
+                                                            alt="" width="783" height="200"/></p>
+                    <h3>Speak to our expert at 1-800-453-6744</h3>
+                    <p><a class="button" href="tours/index.html" style="margin-top:10px;">Browse All Tours</a></p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="one ppb_image_fullwidth" style="padding:0px 0 0px 0;">
-        <div class="one withbg"
-             style="background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/mountain_bg.jpg);background-size:cover;background-position:center top;height:400px;position:relative;"></div>
-    </div>
+</div>
+<div class="one ppb_image_fullwidth" style="padding:0px 0 0px 0;">
+    <div class="one withbg"
+         style="background-image:url({{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/mountain_bg.jpg')}});background-size:cover;background-position:center top;height:400px;position:relative;"></div>
+</div>
 </div>
 
 
@@ -939,7 +948,7 @@
     <ul class="sidebar_widget three">
         <li id="text-2" class="widget widget_text">
             <div class="textwidget"><p><img
-                            src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png"
+                            src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/images/logo%402x_white.png')}}"
                             alt="" width="92" height="22"/></p>
                 <p>London is a megalopolis of people, ideas and frenetic energy. The capital and largest city of the
                     United Kingdom</p>
@@ -999,7 +1008,7 @@
             </div>
             <ul class="demo_list">
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling1.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling1.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1013,7 +1022,7 @@
 
                 </li>
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/demo2.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/demo2.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1107,7 +1116,7 @@
             <h6 class="demo_title">Predefined Stylings</h6>
             <ul class="demo_list">
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling1.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling1.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1120,7 +1129,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling2.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling2.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1133,7 +1142,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling3.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling3.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1146,7 +1155,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling4.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling4.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1159,7 +1168,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling5.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling5.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1172,7 +1181,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling6.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling6.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1185,7 +1194,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling7.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling7.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1198,7 +1207,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling8.jpg"
+                    <img src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/cache/demos/customizer/screenshots/styling8.jpg')}}"
                          alt=""/>
                     <div class="demo_thumb_hover_wrapper">
                         <div class="demo_thumb_hover_inner">
@@ -1264,9 +1273,9 @@
     }
 </script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/ui/core.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/ui/core.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/ui/datepicker.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/jquery/ui/datepicker.min.js')}}"></script>
 <script type='text/javascript'>
     jQuery(document).ready(function (jQuery) {
         jQuery.datepicker.setDefaults({
@@ -1286,11 +1295,11 @@
     });
 </script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/spin.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/spin.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/spin.jquery.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/spin.jquery.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js')}}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var booked_js_vars = {
@@ -1310,7 +1319,7 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/functions.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/booked/assets/js/functions.js')}}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wpcf7 = {
@@ -1322,25 +1331,25 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/contact-form-7/includes/js/scripts.js')}}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     // var wc_add_to_cart_params = {"ajax_url":"\/grandtour\/demo2\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/grandtour\/demo2\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/themes.themegoods.com\/grandtour\/demo2\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js')}}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     // var woocommerce_params = {"ajax_url":"\/grandtour\/demo2\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/grandtour\/demo2\/?wc-ajax=%%endpoint%%"};
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js')}}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     // var wc_cart_fragments_params = {"ajax_url":"\/grandtour\/demo2\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/grandtour\/demo2\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments_e9762baa34be79da9cad975a4f2efa12"};
@@ -1348,63 +1357,68 @@
 </script>
 
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.requestAnimationFrame.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.requestAnimationFrame.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/ilightbox.packed.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/ilightbox.packed.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.easing.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.easing.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/waypoints.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/waypoints.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.isotope.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.isotope.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.masory.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.masory.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.tooltipster.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.tooltipster.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jarallax.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jarallax.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.sticky-kit.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.sticky-kit.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.stellar.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.stellar.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.cookie.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.cookie.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom_plugins.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom_plugins.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom.js')}}"></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/wp-embed.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-includes/js/wp-embed.min.js')}}"></script>
 <script type='text/javascript'
-        src='tour/tour/grandtour/demo2/wp-admin/admin-ajaxd58b.js?action=grandtour_ajax_search&amp;id=s&amp;form=menu_search_form&amp;result=menu_search_autocomplete'></script>
+        src="{{asset('tour/tour/grandtour/demo2/wp-admin/admin-ajaxd58b.js?action=grandtour_ajax_search&amp;id=s&amp;form=menu_search_form&amp;result=menu_search_autocomplete')}}></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom_onepage.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/custom_onepage.js')}}" ></script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.cookie.js'></script>
+src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/themes/grandtour/js/jquery.cookie.js')}}" > </script>
 <script type='text/javascript'
-        src='tour/tour/grandtour/demo2/wp-admin/admin-ajax76a3.js?action=grandtour_script_demo'></script>
+        src="{{asset('tour/tour/grandtour/demo2/wp-admin/admin-ajax76a3.js?action=grandtour_script_demo')}}></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var mc4wp_forms_config = [];
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js')}}"></script>
 <!--[if lte IE 9]>
 <script type='text/javascript'
-        src='tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js')}}"></script>
 <![endif]-->
 <script type="text/javascript"
-        src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js')}}"></script>
 <script type="text/javascript"
-        src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
-{{--@if(isset($scrollTo))--}}
-    {{--<script>--}}
-        {{--scrollTo({{$scrollTo}})--}}
-    {{--</script>--}}
-    {{--@endif--}}
+        src="{{asset('tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js')}}"></script>
+@if(isset($scrollTo))
+<script>
+
+        setTimeout(function () {
+
+            scrollTo('tours')
+        },1000);
+
+</script>
+@endif
 <script>
 
     function scrollTo(hash) {
