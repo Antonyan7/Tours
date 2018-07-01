@@ -580,7 +580,7 @@
                         <div class="one_fifth">
                             <div class="tour_attribute_icon ti-user"></div>
                             <div class="tour_attribute_content">
-                                Доступность {{$tour->availability}} </div>
+                                Наличие {{$tour->availability}} </div>
                         </div>
 
                         <div class="one_fifth last" style="position:relative;">

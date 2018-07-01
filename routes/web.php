@@ -33,3 +33,4 @@ Route::get('/logout','AdminController@logout');
 //CategoriesController
 Route::get('create-category','CategoriesController@createCategory');
 Route::post('create-category','CategoriesController@postCreateCategory');
+Route::get('category/{id}','CategoriesController@category');

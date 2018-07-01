@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\Tour;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
@@ -37,5 +38,18 @@ class CategoriesController extends Controller
         }
 
         return redirect()->action('HomeController@index');
+    }
+
+    public function category($id, Tour $tourModel, Category $categoryModel){
+        $tours = $tourModel->where('category_id',$id)->with('days')->get();
+        $categories = $categoryModel->get();
+
+        $data = [
+            'tours' => $tours,
+            'categories' => $categories,
+            'activeCategoryId' => $id,
+            'scrollTo' => 'tours',
+        ];
+        return view('home',$data);
     }
 }

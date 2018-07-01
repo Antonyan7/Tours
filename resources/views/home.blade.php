@@ -782,24 +782,23 @@
                 <div id="1526815492888590595" class="portfolio_filter_wrapper gallery grid metro portrait four_cols"
                      data-columns="4">
                     @foreach($categories as $category)
-                        @if($loop->index % 3  == 0)
+                        @if(($loop->index % 3  == 0 && floor(($loop->index)/3)%2 == 0) || (floor(($loop->index)/3)%2 == 1 && ($loop->index+1) % 3 == 0))
                             <div class="element grid center classic4_cols double_size animated1">
                                 <div class="one_fourth gallery4 double_size grid static filterable portfolio_type themeborder"
                                      style="background-image:url({{$category->img ? $category->categoryImg() : ''}});">
                                     <div class="ppb_background_overlay light"></div>
-                                    <a class="tour_image" href="destination/north-america/index.html"></a>
+                                    <a class="tour_image" href="{{action('CategoriesController@category',$category->id)}}"></a>
                                     <div class="portfolio_info_wrapper">
                                         <div class="portfolio_info_content"><h3>{{$category->name}}</h3></div>
                                     </div>
                                 </div>
                             </div>
-                        @endif
-                        @if($loop->index % 3  != 0)
+                        @else
                                 <div class="element grid center classic4_cols animated2">
                                     <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
                                          style="background-image:url({{$category->img ? $category->categoryImg() : ''}});">
                                         <div class="ppb_background_overlay light"></div>
-                                        <a class="tour_image" href="destination/south-america/index.html"></a>
+                                        <a class="tour_image" href="{{action('CategoriesController@category',$category->id)}}"></a>
                                         <div class="portfolio_info_wrapper">
                                             <div class="portfolio_info_content"><h3>{{$category->name}}</h3></div>
                                         </div>
@@ -807,66 +806,7 @@
                                 </div>
                         @endif
                     @endforeach
-                    {{--<div class="element grid center classic4_cols double_size animated1">
-                        <div class="one_fourth gallery4 double_size grid static filterable portfolio_type themeborder"
-                             style="background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-481795-960x636.jpg);">
-                            <div class="ppb_background_overlay light"></div>
-                            <a class="tour_image" href="destination/north-america/index.html"></a>
-                            <div class="portfolio_info_wrapper">
-                                <div class="portfolio_info_content"><h3>North America</h3></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="element grid center classic4_cols animated2">
-                        <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
-                             style="background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/pexels-photo-525906-700x466.jpg);">
-                            <div class="ppb_background_overlay light"></div>
-                            <a class="tour_image" href="destination/south-america/index.html"></a>
-                            <div class="portfolio_info_wrapper">
-                                <div class="portfolio_info_content"><h3>South America</h3></div>
-                            </div>
-                        </div>
-                    </div>--}}
-                    {{--<div class="element grid center classic4_cols animated3">
-                        <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
-                             style="background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2017/07/pexels-photo-479344-700x466.jpg);">
-                            <div class="ppb_background_overlay light"></div>
-                            <a class="tour_image" href="destination/asia/index.html"></a>
-                            <div class="portfolio_info_wrapper">
-                                <div class="portfolio_info_content"><h3>Asia</h3></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="element grid center classic4_cols animated4">
-                        <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
-                             style="background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/H2O-Tours-australia-700x466.jpg);">
-                            <div class="ppb_background_overlay light"></div>
-                            <a class="tour_image" href="destination/australia/index.html"></a>
-                            <div class="portfolio_info_wrapper">
-                                <div class="portfolio_info_content"><h3>Australia</h3></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="element grid center classic4_cols animated5">
-                        <div class="one_fourth gallery4 grid static filterable portfolio_type themeborder"
-                             style="background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/Beautiful-Africa-700x466.jpg);">
-                            <div class="ppb_background_overlay light"></div>
-                            <a class="tour_image" href="destination/africa/index.html"></a>
-                            <div class="portfolio_info_wrapper">
-                                <div class="portfolio_info_content"><h3>Africa</h3></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="element grid center classic4_cols double_size animated6">
-                        <div class="one_fourth gallery4 double_size grid static filterable portfolio_type themeborder"
-                             style="background-image:url(tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/uploads/2016/12/erik-lundqvist-220582-960x636.jpg);">
-                            <div class="ppb_background_overlay light"></div>
-                            <a class="tour_image" href="destination/europe/index.html"></a>
-                            <div class="portfolio_info_wrapper">
-                                <div class="portfolio_info_content"><h3>Europe</h3></div>
-                            </div>
-                        </div>
-                    </div>--}}
+
                 </div>
             </div>
         </div>
@@ -897,7 +837,7 @@
                                                             href="javascript:;" class="br-selected"></a><a
                                                             href="javascript:;"></a></div>
                                             </div>
-                                            <div class="tour_attribute_rating_count">4&nbsp;reviews</div>
+                                            <div class="tour_attribute_rating_count"></div>
                                         </div>
                                         <div class="tour_attribute_days">
                                             <span class="ti-time"></span>{{ count($tour->days) }} {{ count($tour->days) == 1 ? 'день' : 'дней' }}
@@ -1460,8 +1400,13 @@
         src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript"
         src="tour/themegoodsthemes-pzbycso8wng.stackpathdns.com/grandtour/demo2/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
-
+{{--@if(isset($scrollTo))--}}
+    {{--<script>--}}
+        {{--scrollTo({{$scrollTo}})--}}
+    {{--</script>--}}
+    {{--@endif--}}
 <script>
+
     function scrollTo(hash) {
         location.hash = "#" + hash;
         window.scroll({
