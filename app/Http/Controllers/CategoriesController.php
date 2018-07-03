@@ -12,7 +12,7 @@ class CategoriesController extends Controller
     private $categoryModel;
     public function __construct(Category $categoryModel)
     {
-        $this->middleware('onlyAuthUser');
+        $this->middleware('onlyAuthUser')->except('category');
         $this->categoryModel = $categoryModel;
     }
 
