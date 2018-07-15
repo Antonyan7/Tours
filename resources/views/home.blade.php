@@ -442,6 +442,16 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
                                                     <a href="{{ action('CategoriesController@createCategory')  }}">Create
                                                         Category</a></li>
+                                                @if(isset($activeCategoryId))
+                                                    <li id="menu-item-3581"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                                                        <a href="{{ action('CategoriesController@editCategory',['id' => $activeCategoryId])}}">Edit
+                                                            Category</a></li>
+                                                    <li id="menu-item-3581"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+                                                        <a href="{{ action('CategoriesController@remove',['id' => $activeCategoryId])}}">Remove
+                                                            Category</a></li>
+                                                @endif
                                             @endif
                                         </ul>
                                     </div>

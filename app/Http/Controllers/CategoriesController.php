@@ -16,11 +16,18 @@ class CategoriesController extends Controller
         $this->categoryModel = $categoryModel;
     }
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function createCategory()
     {
         return view('create-category');
     }
 
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function postCreateCategory(Request $request)
     {
       $data['name'] = $request->name;
@@ -40,6 +47,12 @@ class CategoriesController extends Controller
         return redirect()->action('HomeController@index');
     }
 
+    /**
+     * @param $id
+     * @param Tour $tourModel
+     * @param Category $categoryModel
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function category($id, Tour $tourModel, Category $categoryModel){
         $tours = $tourModel->where('category_id',$id)->with('days')->get();
         $categories = $categoryModel->get();
@@ -51,5 +64,45 @@ class CategoriesController extends Controller
             'scrollTo' => 'tours',
         ];
         return view('home',$data);
+    }
+
+
+    /**
+     * @param $categoryId
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function editCategory($categoryId)
+    {
+        $category = $this->categoryModel->where('id',$categoryId)->first();
+        return view('edit-category',['category' => $category]);
+    }
+
+    /**
+     * @param $categoryId
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function postEditCategory($categoryId, Request $request){
+
+        $data['name'] = $request->name;
+        $img = $request->file('img');
+
+        if ($img) {
+            $fileOriginalName = $img->getClientOriginalName();
+            $fileExtension = File::extension($fileOriginalName);
+            $generatedFileName = str_random(10);
+            $fileName = $generatedFileName . '.' . $fileExtension;
+            $img->move(public_path() . '/app-files/categories/' . $categoryId, $fileName);
+            $data['img'] = $fileName;
+        }
+        $this->categoryModel->where('id',$categoryId)->update($data);
+        return redirect()->action('CategoriesController@category',['id' => $categoryId]);
+    }
+
+    public function remove($categoryId)
+    {
+        $this->categoryModel->where('id',$categoryId)->delete();
+        File::deleteDirectory(public_path() . '/app-files/categories/' . $categoryId);
+        return redirect()->action('HomeController@index');
     }
 }
