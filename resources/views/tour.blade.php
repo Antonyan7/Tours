@@ -926,19 +926,14 @@
                     <div class="single_tour_booking_wrapper contact_form7">
                         <div role="form" class="wpcf7" id="wpcf7-f142-o1" lang="en-US" dir="ltr">
                             <div class="screen-reader-response"></div>
-                            <form action="http://themes.themegoods.com/grandtour/demo2/tour/french-autumn/#wpcf7-f142-o1"
-                                  method="post" class="wpcf7-form" novalidate="novalidate">
+                            {!! Form::open(['action' =>['TourController@postBook'],'file' => true, 'enctype' => 'multipart/form-data']) !!}
+                            {!! csrf_field() !!}
                                 <div style="display: none;">
-                                    <input type="hidden" name="_wpcf7" value="142"/>
-                                    <input type="hidden" name="_wpcf7_version" value="4.8.1"/>
-                                    <input type="hidden" name="_wpcf7_locale" value="en_US"/>
-                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f142-o1"/>
-                                    <input type="hidden" name="_wpcf7_container_post" value="0"/>
-                                    <input type="hidden" name="_wpcf7_nonce" value="48d228d052"/>
+                                    <input type="hidden" name="tourId" value="{{$tour->id}}"/>
                                 </div>
                                 <p><label> Полное имя<br/>
                                         <span class="wpcf7-form-control-wrap your-name"><input type="text"
-                                                                                               name="your-name" value=""
+                                                                                               name="name" value=""
                                                                                                size="40"
                                                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                aria-required="true"
@@ -947,7 +942,7 @@
                                     </label></p>
                                 <p><label> Адрес электронной почты<br/>
                                         <span class="wpcf7-form-control-wrap your-email"><input type="email"
-                                                                                                name="your-email"
+                                                                                                name="email"
                                                                                                 value="" size="40"
                                                                                                 class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                                 aria-required="true"
@@ -955,47 +950,33 @@
                                                                                                 placeholder="sample@yourcompany.com"/></span>
                                     </label></p>
                                 <p><label> Номер телефона<br/>
-                                        <span class="wpcf7-form-control-wrap tel-729"><input type="tel" name="tel-729"
+                                        <span class="wpcf7-form-control-wrap tel-729"><input type="tel" name="phoneNumber"
                                                                                              value="" size="40"
                                                                                              class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
                                                                                              aria-required="true"
                                                                                              aria-invalid="false"
                                                                                              placeholder="+66-4353434"/></span>
                                     </label></p>
-                                <p><label> Дата тура<br/>
-                                        <span class="wpcf7-form-control-wrap menu-419"><select name="menu-419"
-                                                                                               class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
+                                <p><label> Начало тура<br/>
+                                        <span class="wpcf7-form-control-wrap menu-419"><input name="tourStartDate"
+                                                                                              class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
                                                                                                aria-required="true"
-                                                                                               aria-invalid="false"><option
-                                                        value="10-18 January 2017">10-18 January 2017</option><option
-                                                        value="23-31 January 2017">23-31 January 2017</option><option
-                                                        value="7-15 February 2017">7-15 February 2017</option><option
-                                                        value="18-26 February 2017">18-26 February 2017</option></select></span>
+                                                                                               aria-invalid="false"
+                                                                                               placeholder="{{date("m.d.y")}}" /></span>
                                     </label></p>
                                 <p><label> Количество человек<br/>
                                         <span class="wpcf7-form-control-wrap text-237"><input type="text"
-                                                                                              name="text-237" value=""
+                                                                                              name="quantity" value=""
                                                                                               size="40"
                                                                                               class="wpcf7-form-control wpcf7-text"
                                                                                               aria-invalid="false"
                                                                                               placeholder="1 person"/></span>
-                                    </label><span class="wpcf7-form-control-wrap dynamictourtitle"><input type="hidden"
-                                                                                                          name="dynamictourtitle"
-                                                                                                          value="French Autumn"
-                                                                                                          size="40"
-                                                                                                          class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden"
-                                                                                                          aria-invalid="false"/></span><span
-                                            class="wpcf7-form-control-wrap dynamictoururl"><input type="hidden"
-                                                                                                  name="dynamictoururl"
-                                                                                                  value="http://themes.themegoods.com/grandtour/demo2/tour/french-autumn/"
-                                                                                                  size="40"
-                                                                                                  class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden"
-                                                                                                  aria-invalid="false"/></span>
+                                    </label>
                                 </p>
                                 <p><input type="submit" value="Забронировать тур" class="wpcf7-form-control wpcf7-submit"/>
                                 </p>
                                 <div class="wpcf7-response-output wpcf7-display-none"></div>
-                            </form>
+                            {!! Form::close() !!}
                         </div>
                         <div class="single_tour_view_wrapper themeborder">
 

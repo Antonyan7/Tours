@@ -13,6 +13,7 @@ use App\Day;
 use App\Http\Requests\StoreTourRequest;
 use App\Tour;
 use App\TourDay;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
 class TourController extends Controller
@@ -24,7 +25,7 @@ class TourController extends Controller
 
     public function __construct(Day $dayModel, Tour $tourModel, TourDay $tourDayModel,Category $categoryModel)
     {
-        $this->middleware('onlyAuthUser')->except('index');
+        $this->middleware('onlyAuthUser')->except('index','postBook');
         $this->dayModel = $dayModel;
         $this->tourModel = $tourModel;
         $this->tourDayModel = $tourDayModel;
@@ -164,6 +165,16 @@ class TourController extends Controller
             dd('no tour');
         }
 
+    }
+
+    public function postBook(Request $request){
+        $tourId = $request->tourId;
+        $tour = $this->tourModel->where('id',$tourId)->first();
+        $bookData = $request->except('_token','tourId');
+
+
+
+        return view('bookMail');
     }
 
 }
