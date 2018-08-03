@@ -11,10 +11,12 @@ namespace App\Http\Controllers;
 use App\Category;
 use App\Day;
 use App\Http\Requests\StoreTourRequest;
+use App\Mail\OrderShipped;
 use App\Tour;
 use App\TourDay;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Mail;
 
 class TourController extends Controller
 {
@@ -167,11 +169,16 @@ class TourController extends Controller
 
     }
 
-    public function postBook(Request $request){
+    public function postBook(Request $request, OrderShipped $orderShipped){
         $tourId = $request->tourId;
         $tour = $this->tourModel->where('id',$tourId)->first();
         $bookData = $request->except('_token','tourId');
 
+        Mail::send('bookMail',[], function ($message) {
+            $message->from('drof002665@gmail.com', 'Laravel');
+
+            $message->to('drof002665@gmail.com');
+        });
 
 
         return view('bookMail');

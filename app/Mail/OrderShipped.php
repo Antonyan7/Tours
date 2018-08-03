@@ -31,8 +31,4 @@ class OrderShipped extends Mailable
         return $this->view('view.name');
     }
 
-    public function bookTourMail(){
-        return $this->from('drof002665@gmail.com')
-            ->view('bookMail.blade');
-    }
 }
