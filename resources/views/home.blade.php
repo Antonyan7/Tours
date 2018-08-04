@@ -430,9 +430,9 @@
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3105">
                                                 <a href="javascript:scrollTo('tours')">Туры</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10">
-                                                <a href="javascript:scrollTo('about')">о нас</a></li>
+                                                <a href="javascript:scrollTo('about')">О нас</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-                                                <a href="javascript:scrollTo('footer')">контакты</a></li>
+                                                <a href="javascript:scrollTo('footer')">Контакты</a></li>
                                             @if(auth()->check())
                                                 <li id="menu-item-3581"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">

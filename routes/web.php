@@ -16,7 +16,7 @@
 //});
 
 //HomeController
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/{ScrollTo?}', 'HomeController@index')->name('home');
 
 //TourController
 Route::get('/tour-page/{id}','TourController@index');

@@ -12,9 +12,16 @@
 <body>
 
 <div class="container">
-
+    <div class="jumbotron text-xs-center">
+        <h1 class="display-3">Thank You!</h1>
+        <p class="lead"><strong>We Will Answer Soon</strong> --</p>
+        <hr>
+        <p class="lead">
+            <a class="btn btn-primary btn-sm" href="{{ env('APP_URL') }}" role="button">Continue to homepage</a>
+        </p>
+    </div>
 
 </div>
-test
+
 </body>
 </html>
