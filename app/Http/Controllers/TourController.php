@@ -173,16 +173,16 @@ class TourController extends Controller
         $tourId = $request->tourId;
         $tour = $this->tourModel->where('id',$tourId)->first();
         $bookData = $request->except('_token','tourId');
-        $scrollTo = 'footer';
-
-        Mail::send('bookMail',[], function ($message) {
-            $message->from('test002665@gmail.com', 'Laravel');
-
-            $message->to('drof002665@gmail.com');
-        });
 
 
-        return view('bookMail', ['scrollTo' => $scrollTo]);
+//        Mail::send('bookMailForm',[], function ($message) {
+//            $message->from('test002665@gmail.com', 'Laravel');
+//
+//            $message->to('drof002665@gmail.com');
+//        });
+
+
+        return view('bookMailForm', ['tour' => $tour, 'bookData' => $bookData]);
     }
 
 }

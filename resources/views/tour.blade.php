@@ -938,7 +938,7 @@
                                                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                aria-required="true"
                                                                                                aria-invalid="false"
-                                                                                               placeholder="John Doe"/></span>
+                                                                                               placeholder="John Doe" required/></span>
                                     </label></p>
                                 <p><label> Адрес электронной почты<br/>
                                         <span class="wpcf7-form-control-wrap your-email"><input type="email"
@@ -947,7 +947,7 @@
                                                                                                 class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                                 aria-required="true"
                                                                                                 aria-invalid="false"
-                                                                                                placeholder="sample@yourcompany.com"/></span>
+                                                                                                placeholder="sample@yourcompany.com" required/></span>
                                     </label></p>
                                 <p><label> Номер телефона<br/>
                                         <span class="wpcf7-form-control-wrap tel-729"><input type="tel" name="phoneNumber"
@@ -955,14 +955,14 @@
                                                                                              class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
                                                                                              aria-required="true"
                                                                                              aria-invalid="false"
-                                                                                             placeholder="+66-4353434"/></span>
+                                                                                             placeholder="+66-4353434" required/></span>
                                     </label></p>
                                 <p><label> Начало тура<br/>
                                         <span class="wpcf7-form-control-wrap menu-419"><input name="tourStartDate"
                                                                                               class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
                                                                                                aria-required="true"
                                                                                                aria-invalid="false"
-                                                                                               placeholder="{{date("m.d.y")}}" /></span>
+                                                                                               placeholder="{{date("m.d.y")}}" required/></span>
                                     </label></p>
                                 <p><label> Количество человек<br/>
                                         <span class="wpcf7-form-control-wrap text-237"><input type="text"
@@ -970,7 +970,7 @@
                                                                                               size="40"
                                                                                               class="wpcf7-form-control wpcf7-text"
                                                                                               aria-invalid="false"
-                                                                                              placeholder="1 person"/></span>
+                                                                                              placeholder="1 person" required/></span>
                                     </label>
                                 </p>
                                 <p><input type="submit" value="Забронировать тур" class="wpcf7-form-control wpcf7-submit"/>
