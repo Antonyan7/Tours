@@ -174,15 +174,22 @@ class TourController extends Controller
         $tour = $this->tourModel->where('id',$tourId)->first();
         $bookData = $request->except('_token','tourId');
 
+if($request->email) {
+    Mail::send('bookMailThankYou',[], function ($message) use ($request) {
+        $message->from('drof002665@gmail.com', 'Journey Armenia');
 
-//        Mail::send('bookMailForm',[], function ($message) {
-//            $message->from('test002665@gmail.com', 'Laravel');
-//
-//            $message->to('drof002665@gmail.com');
-//        });
+        $message->to($request->email);
+    });
+}
 
+        Mail::send('bookMailForm', ['tour' => $tour, 'bookData' => $bookData], function ($message) use ($request) {
+            $message->from('drof002665@gmail.com', 'Journey Armenia');
 
-        return view('bookMailForm', ['tour' => $tour, 'bookData' => $bookData]);
+            $message->to('drof002665@gmail.com');
+        });
+
+return view('bookMailForm',['tour' => $tour, 'bookData' => $bookData]);
+        return redirect()->action('HomeController@index');
     }
 
 }
