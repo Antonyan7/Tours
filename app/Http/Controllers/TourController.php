@@ -176,19 +176,18 @@ class TourController extends Controller
 
 if($request->email) {
     Mail::send('bookMailThankYou',[], function ($message) use ($request) {
-        $message->from('drof002665@gmail.com', 'Journey Armenia');
+        $message->from(env('MAIL_USERNAME'), 'Journey Armenia');
 
         $message->to($request->email);
     });
 }
 
         Mail::send('bookMailForm', ['tour' => $tour, 'bookData' => $bookData], function ($message) use ($request) {
-            $message->from('drof002665@gmail.com', 'Journey Armenia');
+            $message->from(env('MAIL_USERNAME'), 'Journey Armenia');
 
-            $message->to('drof002665@gmail.com');
+            $message->to(env('MAIL_USERNAME'));
         });
 
-return view('bookMailForm',['tour' => $tour, 'bookData' => $bookData]);
         return redirect()->action('HomeController@index');
     }
 
